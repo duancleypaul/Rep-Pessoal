@@ -1,0 +1,4 @@
+idade = int(input("Insira a sua idade: "))
+peso = float(input("Insira o seu peso em kg (use ponto para casa decimal): "))
+sono = float(input("Insira quantas horas de sono voce dormiu nas ultimas 24h 
+		(use ponto para casa decimal): "))
