@@ -1,0 +1,18 @@
+1) Sugiro compartilharmos os codigos pra gerarmos 1 arquivo unico
+que contenha uma solucao otimizada. Pegar a melhor solucao dentre os 4
+e montar uma unica classe. Ao gerar o codigo unico, vamos comentar 
+(pra facilitar a compreensao de terceiros) e dividir partes para 
+cada um gerar uma documentacao para colocar no Wiki. Isso ja eh a Resolucao 6
+do desafio.
+
+1.1) Utilizar o recurso de package pra que outros grupos possam usar 
+nossa solucao.
+
+2) RESOLUCAO 5: Cada um testa a classe com os 3 arquivos fornecidos, 
+depois nos reunimos pra discutir pros, contras, conclusoes e melhorias
+
+3) RESOLUCAO 7: baixar mais dois arquivos com dados para testar nossa classe.
+Tambem fazer anotacoes para gerar documentacao.
+
+4) RESOLUCAO 8: Testar um dos arquivos baixados no item 3 usando Classes de
+outros grupos.
