@@ -38,34 +38,45 @@ class Biodiversidade_csv:
         # Apesar do calculo da media, o desafio pede pra que a funcao retorno a quantidade de linhas faltantes por coluna.
         return self.lista_faltantes
 
-    def nivelTax(self, inicio=1):
-        # inico: item inicial a ser impresso ate o ultimo (default = 1)
+    #def nivelTax(self, inicio=1):
+    def nivelTax(self):
+        print("\n------Nível Taxonômico-----")
         
-        # pegando indice da coluna "Nivel taxonomico"
-        # pra garantir q a funcao funcionara caso a coluna mude de posicao
-        ind = self.arquivo[0].split(";").index("Nivel taxonomico")
+        self.temp = [linha.strip("\n").split(';') for linha in self.arquivo]     # aloca a taxonomia a ser lida na iteracao       
+        self.nvTax = []     # aloca o nivel taxonomico de cada item no formato: 
+                            # [['Nivel Taxonomico de 1:','Especie'],['Nivel Taxonomico de 2:','Genero'],...]
+       
+        for i in range(len(self.arquivo[1:])):
+            if self.temp[i][21].lower() != "Sem Informações".lower() and self.temp[i][21] != "":
+                self.nvTax.append(["Nível Taxônomico de {}:".format(i),"Espécie"])
+            elif self.temp[i][20].lower() != "Sem Informações".lower() and self.temp[i][20] != "":
+                self.nvTax.append(["Nível Taxônomico de {}:".format(i),"Gênero"])
+            elif self.temp[i][19].lower() != "Sem Informações".lower() and self.temp[i][19] != "":
+                self.nvTax.append(["Nível Taxônomico de {}:".format(i),"Família"])
+            elif self.temp[i][18].lower() != "Sem Informações".lower() and self.temp[i][18] != "":
+                self.nvTax.append(["Nível Taxônomico de {}:".format(i),"Ordem"])
+            elif self.temp[i][17].lower() != "Sem Informações".lower() and self.temp[i][17] != "":
+                self.nvTax.append(["Nível Taxônomico de {}:".format(i),"Classe"])
+            else:
+                self.nvTax.append(["Nível Taxônomico de {} :".format(i),"Filo"])
         
-        # inicializando lista com valores da coluna "Nivel taxonomico"
-        nvTax = []
-        for i in range(1,len(self.arquivo)):
-            # append somente dos valores da coluna "Nivel taxonomico"
-            nvTax.append(self.arquivo[i].split(";")[ind])
+        # Usar linhas abaixo para imprimir valores taxonomicos de cada nivel, a titulo de teste
+        #for i in self.nvTax[:50]:
+        #   print(i)
         
-        print("--- Maximo Nivel Taxonomico Encontrado ---")
-        for i in range(inicio,len(nvTax)):
-            print("Item",i+1,":",nvTax[i])
-        
-        return True
-    
+        return self.nvTax
+
+       
+
     def filtro_ocorrencias(self, categoria, filtro):
         ''' --- DESCRICAO DE USO DO PARAMETRO "filtro" ---
         > A funcao ira retornar os itens que possuem o conteudo do filtro
-          em comum.
-        > Parametro 1: insira o numero correspondente a categoria desejada
-        > Parametro 2: insira o valor correspondente a categoria escolhida
-        > Opcoes de filtro:
-            0- Nome da instituicao
-            1- Sigla da instituicao
+          em comum.[]
+        > Parametro 1: insira o nu[]mero correspondente a categoria desejada
+        > Parametro 2: insira o va[]lor correspondente a categoria escolhida
+        > Opcoes de filtro:[]
+            0- Nome da instituicao[]
+            1- Sigla da instituica[]o
             2- Nome da base de dados
             3- Sigla da base de dados
             4- Responsavel pelo registro
@@ -97,9 +108,9 @@ class Biodiversidade_csv:
             30- Longitude
             31- Outras informacoes da localidade
             32- Jurisdicao
-            33- Destino do Material
+            33- Destino do Mocorrencia
 
-            Exemplo de uso: 
+            Exemplo de uso: ocorrencia
                 obj = Biodiversidade_csv()
                 obj.filtro_ocorrencias(1,"JBRJ")
                 --- OUTPUT:
@@ -136,6 +147,6 @@ class Biodiversidade_csv:
         
 obj = Biodiversidade_csv("portalbio_export_17-10-2019-13-06-22.csv")
 #obj.qtdLinhasDadosFaltantes()                      #OK
-#obj.nivelTax()
+obj.nivelTax()
 #obj.filtro_ocorrencias(1,"JBRJ")                   #OK
 #obj.checkLatLong()                                 #OK (o delay no output eh por causa do acesso a API geocoder)
