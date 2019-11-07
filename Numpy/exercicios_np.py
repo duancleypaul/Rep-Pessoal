@@ -98,15 +98,12 @@ print(n)
 print("--- Solucao abaixo falta aprender")
 
 # Crie uma matriz estruturada representando uma posição (x, y) e uma cor (r, g, b)
-''' Solucao da internet: '''
-n = np.zeros(10, [ ('posicao', [ ('x', float, (1,)),
-                                 ('y', float, (1,))]),
-                   ('cor',     [ ('r', float, (1,)),
-                                 ('g', float, (1,)),
-                                 ('b', float, (1,))])])
+''' Solucao adaptada da internet: '''
+n = np.array(0,[('posicao', [ ('x', float), ('y', float)]),
+                ('cor',     [ ('r', float), ('g', float), ('b', float)])])
+                
 print(n)
 print("---")
-
 # Subtrair a média de cada linha de uma matriz
 n = np.random.randint(0,10,(3,4))
 
