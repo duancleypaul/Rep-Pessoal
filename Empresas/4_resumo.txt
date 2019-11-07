@@ -1,0 +1,20 @@
++----------------------------------------------------+
+| PREDICTING USER PREFERENCE IN PAIRWISE COMPARISONS |
+|	BASED ON EMOTIONS AND GAZE		     |
++----------------------------------------------------+
+
+> O artigo visa investigar se padrões de comportamentos podem ser aprendidos e usados para prever escolhas dos usuários.
+
+> Foi focado em comparações de imagens em pares num experimento de elicitação de preferência.
+
+> Também foi explorado uma abordagem de Process Mining para aprender as preferências
+
+> Fora proposta e avaliada uma estratégia baseada em emoções experimentadas e comportamento do olhar.
+
+> Os resultados mostram performance de predição promisssora
+
+//--- O CONTEUDO PODE SER UTIL PARA AS EMPRESAS DE VAREJO (dentro ou fora do escopo da residência)
+
+
+
+

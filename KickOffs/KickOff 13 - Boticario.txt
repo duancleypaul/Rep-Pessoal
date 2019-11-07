@@ -1,0 +1,22 @@
++------------------------+
+| KickOff 13 - Boticario |
++------------------------+
+
+> A reuniao nao foi produtiva. Eles achavam que a resicencia comecaria em Marco/2020
+
+> Existe uma possibilidade de usar VPN, mas ainda assim nao parece ser muito realizavel
+
+> Nao foi definida a forma de acesso a BD, entao ficou marcada outra reuniao para tentar definir isso com o pessoal de TI
+
+//--- Previsao de tendencia
+
+> Entender como funciona um historico de tendencia pra prever o que pode virar tendencia
+
+> Bases que eles utilizam: WGSN (portal de captura de tendencias)
+---> Tbm blogs, youtube, instagram... 
+
+> Tendencias:
+---> Estilo de vida: analisar esportes, por exemplo
+---> Cores: ver cores que estao na tendencia, analisar historico e tentar prever cores de tendencia futura para usar em produtos (embalagens, maquiagem, batons, etc)
+
+

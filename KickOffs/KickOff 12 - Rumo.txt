@@ -1,0 +1,37 @@
++-------------------+
+| KickOff 12 - RUMO |
++-------------------+
+
+Rafael: Gerente de Tecnologia e Inovacao
+Pamela: Area de Inovacao
+
+> 
+
+
+
+//--- TRATATIVA DE DADOS:
+> Dados nao estruturados
+
+
+//--- INSPECAO AUTOMATICA DA VIA:
+> Obstrucao?
+> Qualidade dos trilhos e das vias
+
+//--- AUXILIAR DE CONDUCAO:
+> Sugere ao maquinista quanto a frenagem e aceleracao.
+
+//--- PREVISAO DE CHEGADA DE TRENS
+> Prever duracao da viagem (chegada do trem no destino)
+> Usar todas as variaveis para prever isso (Partida, velocidade, numero de paradas, etc)
+
+//--- PREVISAO DE ACIDENTES FERROVIARIOS
+> Eles possuem muitas variaveis que geram alertas, mas que nao possuem correlacao entre si. O que se quer eh criar uma correlacao para que gere o alerta.
+
+//--- BALANCA DINAMICA
+> garantir a pessagem dos vagoes com a maior velocidade e o menor erro possiveis.
+> Usar os graficos de pesagem em balancas diferentes para aplicar uma IA
+
+//--- AUDITOR DE CAUSA DE ACIDENTES
+> Identificar a possivel causa de um acidente ferroviario
+
+

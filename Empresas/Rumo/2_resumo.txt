@@ -1,0 +1,26 @@
++--------------------------------------------------+
+| APPLICATION OF DATA MANING TECHNOLOGY IN VEHICLE |
+|	INTELLIGENT MANAGEMENT SYSTEM		   |
++--------------------------------------------------+
+
+> O sistema é construído sob uma tecnologia de Data Mining e tem boa melhora em sua performance.
+
+> Esta aplicação inclui:
+--> julgamento de acidentes de tráfego;
+--> pesquisa de violação de tráfego;
+--> ponto de julgamento de congestionamento;
+--> julgamento de vaga de estacionamento;
+--> etc
+
+> O artigo fornece algoritmos relevantes em:
+--> predição de fluidez de tráfego;
+--> análise agrupamento de fluidez de tráfego;
+--> mineração de eventos em congestionamento de fluidez de tráfego;
+--> melhora o algoritmo de ponto de bloqueio;
+--> conduz análises experimentais em amostras
+
+> Os resultados mostram que o Data Mining aplicado tem importante papel no controle de divergência e prevenção de congestionamento, bem como melhorar performance de gerenciamento de veículos
+--> Promove o desenvolvimento estável e seguro da industria de transportes na China
+
+
+

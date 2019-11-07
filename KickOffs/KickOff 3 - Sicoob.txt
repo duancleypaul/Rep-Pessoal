@@ -1,0 +1,11 @@
++--------------------+
+| KickOff 3 - Sicoob |
++--------------------+
+
+> 
+
+//--- IDENTIFICACAO DE INADIMPLENCIA E ANALISE DE FRAUDES
+
+
+//--- RECOMENDACAO DE PRODUTO COM BASE EM HISTORICO/CONTEXTO
+

@@ -1,0 +1,52 @@
++-----------------+
+| KickOff 4 - CNR |
++-----------------+
+
+> Um cartorio de Registro de protestos e outro de Imoveis
+
+> 2 modulos em 1 problema e 2 em outro
+
+//--- O cartorio de imoveis eh um pouco mais "tecnologico" que a maioria
+--> Ja possuem base de dados com varios documentos digitalizados
+
+> fazer OCR de matricula de imovel p/ tornar os arquivos "pesquisaveis"
+
+//--- POC: OCR que transcreve os documentos. Nao precisa necessariamente reconhecer os campos.
+
+> Base de dados tem docs escritos, datilografados e digitados
+
+> DADOS: 98mil transcritos e digitalizados (CPF, imoveis, etc)
+
+> Nem ai pra LGPD, por nao estar em vigor
+
+> Os dados nao virao mascarados
+
+> Provavelmente comecaremos 
+
+> 1 a 18 de novembro: dados
+
+> 28 de novembro comecam as SPRINTS
+
+
+
+2) Analise de dados do cartorio de protestos
+
+> Nao sabem o que querem exatamente
+
+> Querem a analise pra descobrir o que da pra fazer com os dados
+
+> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+

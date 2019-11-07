@@ -1,0 +1,80 @@
++--------------------------+
+| KickOff 5 - GSTI (Senai) |
++--------------------------+
+
+> Possui 5 cotas
+---> 3 do GSTI - Gerencia de Servicos em Tecnologia e Inovacao
+---> 2 para area de Educação
+
++------+
+| GSTI |
++------+
+> Estao esperando um produto. Que pena.
+
+*** 1. Auxilio de Atendimento ao Cliente
+
+> algo similar a um chatbot
+> auxilia o consultor
+> alimentado com a base de dados interna do senai
+
+xxx 2. Gestão de processo de busca de propriedade intelectual
+
+> Automatizar um sistema para verificar pendencias, gerando alertas conforme necessario
+
+*** 3. Ferramenta para compilar serviços, receitas, despesas, etc... Gerando um BI dentro do WhatsApp
+
+> Entender a base de dados deles e fazer uma análise mais sofisticada
+> algo para fazer controle/gestão interna
+
+xxx 4. Mapeamento de recursos humanos do STI
+
+> o que se tem de recurso
+> quais sao os projetos
+> o que cada projeto tem de recurso
+> fazer analise de tudo isso e ver o que se pode fazer
+
+xxx 5. Radar de Fomentos
+
+> Simular o que uma pessoa faz quando usa o google alerts
+> A ideia é conseguir encontrar quando tem edital aberto, mas tambem identificar pra qual setor o edital estaria relacionado
+> PROBLEMA: automatizar pesquisa no google e identificar o edital.
+---> tentar reduzir o escopo para paginas especificas
+
++----------+
+| EDUCACAO |
++----------+
+> Eles nao querem POC, querem um produto final. Mas isso NAO SERA ENTREGUE.
+
+>>> O que eles querem:
+
+> Usar dados sensiveis da base interna (10 anos de egressos da faculdade senai)
+--> NOS TEREMOS QUE DESCARACTERIZAR OS DADOS
+
+> Outra base de dados: SGCI  - Sistema de Gestao de Capital Intelectual (Lattes e LinkedIn alimentam essa base)
+
+> Outra base: catto, vagas, etc... 
+
+> Outra base: dados do Min. do Trabalho.
+
+//--- No Futuro: [Clube de vantagens] usar as informacoes da base de dados para incentivar a fidelizacao do egresso por meio da educacao continuada, oferecendo cursos no grupo S e apresentar vagas disponiveis, networking possiveis.
+
+//--- Mapear o andamento de um aluno durante o curso, para orienta-lo em cursos de reforco ou montagem da grade curricular
+
+//--- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

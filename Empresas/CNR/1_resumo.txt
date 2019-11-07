@@ -1,0 +1,19 @@
++---------------------------------------------+
+| TEXT RETRIEVAL FROM SCANNED FORMS USING OCR |
++---------------------------------------------+
+
+> O artigo investiga o uso de tecnicas de processamento de imagem e algoritmos de ML de regressão logistica para extrair texto de documentos escaneados.
+
+> Principais componentes do sistema:
+--> detecção de texto de documentos escaneados;
+--> detecção de caracteres individuais nos textos detectados
+
+> Para completar tal tarefa:
+--> usadas técnicas de processamento de imagem para fazer segmentação de linha, segmentação de caracter e, por fim, reconhecimento de caracter.
+
+> O reconhecimento de caracter é feito com classificador um-vs-todos, que é treinado usando um dataset de treinamento para aprender os parametros.
+--> Uma vez que o classificador aprende os parâmetros, ele pode identificar um total de 39 caracteres, que incluem letras maiúsculas do alfabeto da língua inglesa, números e alguns símbolos.
+
+
+
+

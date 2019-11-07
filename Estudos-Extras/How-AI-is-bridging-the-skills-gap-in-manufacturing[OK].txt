@@ -1,0 +1,56 @@
++----------------------------------------------------+
+| HOW AI IS BRIDGING THE SKILLS GAP IN MANUFACTURING |
++----------------------------------------------------+
+
+> Processos manufaturados tendem a ser escassos devido a sua exigencia de uma combinacao entre habilidades tecnicas e artesanato, que sao dificeis de ensinar, aprender e transferir para novos produtos e processos.
+
+> A rotatividade da mao de obra torna mais dificil solucao de problemas via compartilhamento de conhecimento, habilidades e niveis de experiencia.
+
+> A manufatura pode utilizar sistemas de IA para encontrar solucoes para ajudar a capacitar novos e menos experientes trabalhadores, alem de auxiliar na eficiencia de treinamentos por suporte e aquisicao de conhecimento, mantendo qualidade e resultados de producao.
+
+> Sistemas de IA uteis: visao computacional, processamento de linguagem natural (NLP), modelos de series de tempo e modelos de pesquisa operacional.
+
++-----------------------------------------------------------------------------------+
+| 3 APLICACOES DE IA PARA MITIGAR OS EFEITOS DA ESCASSEZ DE MAO DE OBRA QUALIFICADA |
++-----------------------------------------------------------------------------------+
+
+
+//--- FORNECA AOS EMPREGADOS A INFORMACAO QUE ELES QUEREM, DE FORMA RAPIDA E CONTEXTUALIZADA
+
+> IA pode ajudar aos empregados a acessar informacoes desordenadas de forma estruturada, entregando sentido mais rapido. Mas a gestao de informacoes por IA vai alem dos tradicionais "filtros e buscas". 
+
+> O sistema de IA, neste caso, ira absorver dados de uma grande variedade de documentos, registros e outras combinacoes de dados estruturados ou nao, retornando aos empregados acesso a uma grande quantidade de informacao.
+--> Quando o sistema for requisitado, informacoes de fontes diversas e de grande relevancia contextual serao retornadas. Essa contextualizacao acelera a resolucao de casos e identifica de forma mais acurada potenciais causas.
+--> Conforme analistas forem usando o sistema de IA, podem dar feedback sobre a eficiencia das recomendacoes e a IA utiliza isso para aprender e melhorar com o tempo.
+
+
+//--- PERMITA QUE A IA ASSUMA TRABALHOS REPETITIVOS E MANUAIS
+
+> O uso de sistemas IA para automatizacao de servicos cria oportunidade valiosas para que a manufatura libere empregados para serem realocados em areas de habilidades mais criticas para o empreendimento.
+
+> IA: scanear, interpretar, processar elementos chaves de documentos. Poupa tempo, aumenta produtividade e torna os processos mais fluidos/distribuidos
+
+
+//--- AUTOMATIZE TAREFAS DE INSPECAO MAIS COMPLEXAS
+
+> Deteccao de anomalias (visao computacional)
+--> Sao atividades repetitivas e alto nivel de habilidade requerida, o que torna o cargo muito dificil de ser preenchido em caso de vacancia
+
+> Automatizacao de inspecao visual pode servir de complemento ou substituicao para a execucao manual dessa atividade
+
+> Niveis de subjetividade tornam a automatizacao mais complexa. Mas a implementacao de IA pode liberar os especialistas para redirecionar seu foco para analises causais mais profundas e melhoria continuada.
+
+> 
+
+
+
+
+
+
+
+
+
+
+
+
+

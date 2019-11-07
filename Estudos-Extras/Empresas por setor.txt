@@ -1,0 +1,85 @@
++---------------------------------------+
+| EMPRESAS PARCEIRAS - DIVISAO SETORIAL |
++---------------------------------------+
+
+1. Acesso Digital:
+Localizacao: Londrina
+Cotas: 1
+//--- Atuacao: digitalizacao de documentos
+
+2. AgriSolus:
+> Localizacao: Sao Paulo
+> Cotas: 1
+//--- Atuacao: Agronegocio (solucoes tecnologicas, IoT para gestao de custos, organizacao de processos e conexao com a cadeia produtiva)
+
+3. Bosch:
+> Localizacao: Curitiba
+> Cotas: 1
+//--- Atuacao: Manufatura automotiva (componentes: freios, controles, acionamentos eletricos, eletronicos, sistemas de combustivel, geradores, motores, produtos industriais e de construcao)
+
+
+4. CNR:
+> Localizacao: Sede em BSB, dois cartorios em Londrina (protestos e imoveis)
+> Cotas: 1
+//--- Atuacao: Cartorios (protestos e imoveis)
+
+5. Cocamar: 
+> Localizacao: Maringa
+> Cotas: 1
+//--- Atuacao:
+
+6. FarmGO:
+> Localizacao: Maringa
+> Cotas: 1
+//--- Atuacao:
+
+
+7. Boticario:
+> Localizacao: Curitiba
+> Cotas: 1
+//--- Atuacao:
+
+8. Integrada:
+> Localizacao: ???
+> Cotas: 1
+//--- Atuacao:
+
+9. QExpert:
+> Localizacao: Curitiba
+> Cotas: 1
+//--- Atuacao: BigData, Data Science, Data Analytics
+
+10. Rumo (ALL):
+> Localizacao: Curitiba
+> Cotas: 1
+//--- Atuacao:
+
+11. Sicoob: 
+> Localizacao: Maringa
+> Cotas: 1
+//--- Atuacao:
+
+12. Unimed:
+> Localizacao: Londrina
+> Cotas: 3
+//--- Atuacao:
+
+13. Veltec
+> Localizacao: Londrina
+> Cotas: 2
+//--- Atuacao:
+
+14. Senai-PR:
+> Localizacao: Curitiba
+> Cotas: 5
+//--- Atuacao:
+
+
+
+
+
+
+
+
+
+

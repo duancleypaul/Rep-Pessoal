@@ -1,0 +1,109 @@
++-----------------------------------------------------------+
+| How AI & ML research impact payment card fraud detection: |
+|	survey and industry benchmark (2018)                |
++-----------------------------------------------------------+
+
+//--- short-ABSTRACT 
+> Apresentação de uma pesquisa (survey) cronológica de métodos publicados em detecção de fraudes de cartão e pagamentos. O foco é em métodos que utilizam IA e ML.
+--> Objetivo da survey: fazer um benchmark contínuo dos métodos de detecção de fraudes para indústrias utilizando volumes transacionais em 2017.
+----> Esse benchmark apresentará que apenas 8 métodos têm performance prática para ser implementado na indústria.
+--> Também são identificados os principais desafios da aplicação de IA e ML na detecção de fraudes.
+
+> É sugerido que uma abordagem computacional cognitiva é um direcionamento promissor para pesquisa no tema.
+
+
+//--- 1. INTRODUÇÃO
+
+> Novas metricas de avaliação que explicam o impacto nos negócios de cada abordagem de detecção de fraude foram identificadas. 
+
+> Essas métricas mostram que, academicamente, os algoritmos performam bem, mas podem falhar em identificar contextos mais amplos de negócio
+
+> PAYMENT CARD FRAUD: Fraude de cartão de crédito, uso indevido do cartão físico ou de seus dados sem o consentimento de seu titular.
+
+> FRAUD VECTOR: vetor fraude, sequência de operações específica que leva a fraude de cartão e que fora subsequentemente reconhecida ou detectada e reportada pela lei ou especialistas.
+--> esses vetores se tornaram mais conhecidos pela industria 
+
+> 1950: lançamento de cartões de pagamento genéricos
+> 1970: transações param de ser processadas em papeis postados fisicamente e passam a usar a fita magnética (dados do cartão podiam ser lidos automaticamente em terminais e o processamento passa a poder ser automatizado)
+
+
+//--- 1.1 CRESCIMENTO DOS MÉTODOS DE PAGAMENTO E FRAUDES NO SETOR
+
+> A sociedade está se digitalizando cada vez mais e se tornando dependente da disponibilidade, precisão e confidencialidade das informações armazenadas, processadas e comunicadas via computadores.
+
+> PF e PJ se beneficiam da tecnologia, principalmente quanto a habilidade de fazer pagamentos de forma rápida e segura.
+
+> O crime de fraude de cartão tende a ser visto como "perigo menor" pela sociedade pelo fato de haver seguridade de reembolso por parte dos bancos. 
+
+> Acredita-se que os mais afetados são bancos, grandes empresas e o governos (já que PF e pequenas PJ recebem ressarcimento do montante fraudado).
+
+> Geralmente os criminosos são "hackers de garagem", mas nos últimos anos fora identificado organizações (Ornanized Crim Groups - OCGs) que usam esse tipo de fraude para financiar suas atividades, como compra de armas, drogas e terrorismo.
+
+> O artigo mostra alguns números que provam o aumento do ônus causado por fraudes de cartão de crédito.
+
+> A mesma tecnologia que habilita os pagamentos "sem dinheiro" (via cartão) é a que abastece o crescimento exponencial das fraudes no setor.
+
+
+//--- 1.2 PROCESSO DE TRANSAÇÕES DE PAGAMENTO COM CARTÃO
+
+> Lojista quer vender no cartão -> detalhes da transação são enviados à instituição financeira -> a financeira solicita autorização do titular -> transação é aprovada ou negada -> essa decisão é passada ao lojista para completar a transação.
+
+
+//--- 1.3 SISTEMA DE GERENCIAMENTO DE FRAUDE (Fraud Management System - FMS)
+
+> FMS é um dos processos ao qual uma transação precisa ser submetida antes de ser aprovada/negada
+
+> FMS recebe a transação -> toma decisão com base em algum formulário ou classificação -> retorna o resultado como parte do processo de autorização
+--> Se a transação for considera suspeita, geralmente é bloqueada ou negada e é criado um TICKET DE FRAUDE, contendo informações suficientes para um humano revisar a transação e então tomar a decisão mais apropriada.
+--> Na maioria das organizações, essa revisão é feita por uma equipe que executa uma série de procedimentos, incluindo contactar tanto o titular quanto o lojista
+
++----------------------------------------------------------------+
+|//--- 1.4 MAIORES DESAFIOS EM CASOS REAIS DE DETECÇÃO DE FRAUDE |
++----------------------------------------------------------------+
+
+//--- 1.4.1 Decisões transparentes
+
+> Uma das coisas que limita o avanço de pesquisas é que a maioria dos métodos publicados são caixas-pretas.
+--> Não se consegue explicar facilmente as decisões tomadas pelos modelos.
+
+> Um modelo aberto e compreensível é essencial para guiar investigadores na prevenção eficiente de fraudes
+
+> Modelos são "opacos" por 2 motivos: medo de ser usado como ferramenta por criminosos e precaução de sistemas internos dos bancos.
+
+
+//--- 1.4.2 Custos de Detecção de Fraude para a Industria de Pagamentos
+
+> Custo é uma motivação chave para a industria de pagamentos
+--> Ex: na prática, a maioria dos FMSs produzem muitos alertas que precisam ser checados por recursos humanos de alto custo. Somente se custos como este forem priorizados é que sistemas anti-fraude mais eficazes serão desenvolvidos.
+
+> Por causa do custo elevado de um FMS, é importante comparar o custo de desenvolvimento com o montante economizado, para ver se é viável sua implementação
+--> Outra coisa a se considerar é que contactar bons clientes com falsos alarmes de fraude não inspira confiança ao cliente. O mesmo pode, então, pensar que a suspeita de fraude pode facilmente deteriorar a relação com a financeira.
+--> POUCOS MODELOS LEVAM ISSO EM CONSIDERAÇÃO
+
+
+//--- FALTA DE DATASET DE GRANDE ESCALA E DE DADOS SENSÍVEIS DE CASOS REAIS
+
+> Dados sintéticos podem ser pobres em qualidade, uma vez que em casos reais dados genuínos e fraudulentos mudam com o tempo.
+
+> Dados sensíveis nunca são fornecidos, o que dificulta o desenvolvimento de novos métodos de detecção, por causa da falta de dados de boa qualidade.
+
+> Métodos de ofuscamento dos dados podem ser utilizados (mantendo a relação entre as variáveis), mas isso implica que o detentor dos dados deve ter absoluta certeza que os dados sensíveis não poderão ser recriados/rastreados.
+
+> Leis tornam a disponibilização dos dados ainda mais delicadas, fazendo com que seja ainda mais difícil de conseguir dados de qualidade.
+
+> Os dados disponíveis para um FMS dependem de qual das partes na transação implementou o sistema. O lojista só tem dados das transações que aconteceram em sua firma, obviamente. A financeira só tem dados das transações feitas pelos titulares que estão sob sua administração e não possui qualquer informação sobre o tipo de produto ou serviço comprado.
+--> Ou seja, os dados estão espalhados em diferentes fontes, e isso é um desafio enorme para a comunidade de pesquisa.
+
+
+//--- MÉTRICAS DOS MODELOS DE FRAUDE
+
+> Caminho 1: pagamento é determinante (genuino) -> autorizado
+> Caminho 2: pagamento é suspeito (possível fraude) -> bloqueado ou passado para revisão
+
+> Diz-se que cada vetor-fraude possui atributos em comum. Métodos automatizados podem reconhecer esses atributos comuns a ponto de descriminar transações.
+
+> 3 tipos de classificadores: (1) Regras, (2) Classificadores supervisionados e (3) classificadores de anomalias
+
+
+
+

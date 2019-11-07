@@ -1,0 +1,14 @@
++-----------------------------------------------------+
+| A STATE OF THE ART REVIEW OF INTELLIGENT SCHEDULING |
++-----------------------------------------------------+
+
+> O artigo cobre várias ferramentas e técnicas para resolver problemas de agendamento
+
+> É fornecido um survey sobre sistemas inteligentes de agendamento divididos em 5 grandes técnicas:
+--> lógica fuzzy
+--> expert systems
+--> ML
+--> algoritmos de otimização de busca local estocástica
+--> programação de restrições
+
+> Também é dada uma review de aplicações de estudos de caso dessas 5 técnicas

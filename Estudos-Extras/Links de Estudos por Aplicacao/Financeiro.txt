@@ -1,0 +1,17 @@
+> AI FIGHTS Money Laudering
+https://ieeexplore.ieee.org/abstract/document/1315546
+
+> Mobile Banking and AI-enabled Mobile Banking
+https://www.emerald.com/insight/content/doi/10.1108/JRIM-07-2018-0087/full/html
+
+> AI Seminar: ML and Banking: a Model Risk Perspective
+https://ai.ku.dk/events/ai-seminar-soeren-moerk/
+
+> Tomorrow's AI-Enabled Banking
+https://link.springer.com/chapter/10.1007/978-981-13-7139-4_15
+
+> (Livro) Bank 4.0: Banking Everywhere, Never at a Bank
+https://books.google.com.br/books?hl=pt-BR&lr=&id=7DB7DwAAQBAJ&oi=fnd&pg=PA13&dq=AI+in+banking&ots=YCAzKpnyH5&sig=J-kNvZSLnU_wL3_HzwU3BWf4ET0#v=onepage&q=AI%20in%20banking&f=false
+
+> An AI-Based Multi-Stage Detection System o Banking Botnets
+https://arxiv.org/abs/1907.08276

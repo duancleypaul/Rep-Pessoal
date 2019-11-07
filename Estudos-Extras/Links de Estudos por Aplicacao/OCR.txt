@@ -1,0 +1,22 @@
+1- Methods for Optical Character Recognition
+https://patents.google.com/patent/US20190102649A1/en
+
+2- Recognition of Expiration Dates Written on Food Packages with Open Source OCR
+http://www.ijcte.org/vol10/1220-CM2001.pdf
+
+3- Automatic Knowledge Extraction from OCR Documents Using Hierarchical Document Analysis
+https://dl.acm.org/citation.cfm?id=3264793
+
+4- Confidence Prediction for Lexicon-Free OCR:
+https://ieeexplore.ieee.org/abstract/document/8354134
+
+5- Table of Contents Recognition in OCR Documents using Image-based Machine Learning
+https://dl.acm.org/citation.cfm?id=3314455
+
+6- Optical character recognition systems and methods
+https://patents.google.com/patent/US20190122079A1/en
+
+7- OCR from Printed Text Images
+http://ijsrcseit.com/paper/CSEIT1952175.pdf
+
+8- 

@@ -1,0 +1,20 @@
++--------------------+
+| KickOff 1 - FarmGO |
++--------------------+
+
+> Querem 1 POC do inicio ao fim
+
+> Vendem produtos para consultores (eng. agronomos)
+
+> POC: Estimativa da produtividade da plantacao de soja (somente soja)
+
+//--- DADOS:
+> clima
+> amostragem de qualidade do solo
+> imagem de satelite
+> input de doencas e pragas do agricultor
+> input do quanto foi produzido (feito manualmente pelo produtor, nao confiavel)
+> cultura plantada
+> qualidade do grao
+> insumos utilizados
+

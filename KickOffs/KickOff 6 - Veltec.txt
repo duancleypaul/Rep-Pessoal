@@ -1,0 +1,102 @@
++--------------------+
+| KickOff 6 - Veltec |
++--------------------+
+
+--> 2 cotas
+
+> Trabalham com telemetria, rastreamento e monitoramento de frotas
+
+> Pct basico vendido: telemetria + monitoramento do motorista + monitoramento da estrada
+
+> Ja possuem IA embarcada pra analisar o motorista, quanto a fadiga, distração, etc.
+
+> Mantem registros de 15 dias dos sensores
+
+> Sempre monitoram velocidade, rpm, consumo
+
+> Cada empresa escolhe o que quer tratar como crítico
+
+> Os alertas sao enviados para o motorista e para a pessoa que supervisiona as frotas
+
+> Tambem fornecem pacotes de camera que monitoram o veiculo ao redor
+
+> Hoje ja verificam se o motorista usa EPI, mas ainda nao verificam o carona.
+
+//--- NÃO QUEREM QUE A GENTE TRABALHEM EM CIMA DO MONITORAMENTO DO PRODUTO DELES. ELES JA FAZEM ISSO MUITO BEM
+
+> Usar a residencia para estudar coisas que julgam interessante, mas que nao vale a pena deslocar pessoal interno
+
+//---------------
+
+OBS: algumas coisas sao feitas pós-processamento (para tudo que não for muito crítico)
+
+> Já trabalharam com mapeamento de telemetria, aplicando IA 
+
+
+1. Benchmark de risco
+
+> Qual o ranking do meu motorista em relação aos outros?
+
+> Em relação as metricas de segurança, qual a relação da segurança da empresa (e do motorista) em relação a outras
+
+
+2. Mapeamento do condução motorista
+
+> Mapear o perfil do motorista e perceber mudanças
+
+
+3. Mapear pontos de interesse por caminhoneiro
+
+> Algoritmo de sugestão. Notou fadiga? Sugerir parada próxima, baseada em paradas de outros motoristas
+
+4. Perfil de acidente no Brasil (mapa de calor das rodovias)
+
+> Tentar tornar o mapeamento o mais abrangente possível!
+
+5. Estado de conservação das vias
+
+> Traçar perfil de conservação das vias, partindo de dados de giroscópio, acelerometro, GPS, velocidade, rpm, etc, dos caminhões
+
+6. Segurança no monitoramento no transporte de cargas
+
+> Verificar se motoristas fazem rondas obrigatorias pre-saida e pós-parada
+
+//--- Processamento de Imagens podem ficar mais pro final
+
+
+7. Corrigir velocidade das vias por imagem de placas
+
+> Atualizar base de dados deles com essas correções
+
+8. Não há verificação de respeito a sinalização de transitos
+
+> Envolve processamento de video
+
+9. Monitoramento de carona
+
+> Verificar EPIs do carona
+
+10. Catalogar caminhoes de acordo com consumo, economia e area de atuação
+
+> Relacionar perfil de consumo com o setor de atuação
+
+
+//--- O QUE FOI SOLICITADO DELES:
+
+> Fornecer diagramas e amostras
+> Eles devem informar como vamos acessar as bases de dados
+
+> 1a SPRINT: analisar a base de dados e tentar dar uma aplicação. Também apresentar fundamentação de aplicações semelhantes no mercado.
+
+
+
+
+
+
+
+
+
+
+
+
+

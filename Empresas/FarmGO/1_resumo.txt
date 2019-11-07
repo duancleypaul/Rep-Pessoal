@@ -1,0 +1,13 @@
++----------------------------------------------------+
+| ML APPROACHES FOR CROP YIELD PREDICTION AND NITRO- |
+|	GEN STATUS ESTIMATION IN PRECISION AGRICULT. |
++----------------------------------------------------+
+
+> Proposta: 	- Discutir tecnicas baseadas em ML aplicadas a predicao de producao
+		agricola e estimativa de status de nitrogenio. Tambem sao listados
+		artigos que utilizaram ML para predicao de producao agricola
+> Ano: 		- 2018
+> Linguagem: 	- Nao especificada
+> Abordagem: 	- Algumas em ML
+> Acurácia:	- Varia de acordo com abordagem
+> Aplicação:	- FarmGO, AgriSolus e Integrada

@@ -1,0 +1,43 @@
++----------------------------------------------------+
+| MEASUREMENT OF DISEASE SEVERITY OF RICE CROP USING |
+|	ML AND COMPUTATIONAL INTELLIGENCE	     |
++----------------------------------------------------+
+
+> Ano: 2018
+> Linguagem: Matlab
+> Proposta: Desenvolvimento de um prototipo que computa severidade da presença de doenças no cultivo de arroz usando ML e inteligencia computacional. 
+> Abordagem: Logica Fuzzy
+> Acurácia aproximada 86.35%
+> Aplicação:  
+
+> O trabalho aponta na revisao de literatura os trabalhos utilizados como base, incluindo formulas para calculo do indice da doenca, porcentagem de pixels infectados, severidade da doenca.
+
+> Contem fluxograma do metodo utilizado para estabelecer a graduacao da doenca e o sistema de reconhecimento de risco
+
+
+
+> Desenvolvimento de um protótipo que computa severidade da presença de doenças no cultivo de arroz usando ML e inteligencia computacional.
+
+> Os sintomas são utilizados para implicar a seriedade da doença e sugere a escolha da melhor abordagem para lidar com a doença.
+
+> A maioria das doenças nesse tipo de cultura aparece como uma mancha nas folhas.
+
+> É necessário diagnosticar devidadamente e a tempo para evitar danos à safra inteira.
+
+> O tratamento dessas doenças com aplicação desproporcional de pesticidas aumenta o custo e a poluição ambiental.
+--> Então o uso de pesticidas deve ser minimizado.
+
+> Isso pode ser feito selecionando a area de doença com a quantidade e concentração apropriadas de pesticida, através da estimativa de severidade da doença.
+
+> O artigo introduz a tecnica de segmentação de lógica fuzzy com K-means para computar o grau de severidade da doença das folhas no cultivo do arroz.
+
+> Acurácia aproximada 86.35%
+
+
+
+
+
+
+
+
+

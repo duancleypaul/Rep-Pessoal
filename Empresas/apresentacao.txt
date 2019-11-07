@@ -1,0 +1,109 @@
++----------------------------------------------------+
+| MEASUREMENT OF DISEASE SEVERITY OF RICE CROP USING |
+|	ML AND COMPUTATIONAL INTELLIGENCE	     |
++----------------------------------------------------+
+
+> Proposta: 	- Desenvolvimento de um prototipo que computa severidade da presença 
+		de doenças no cultivo de arroz usando ML e inteligencia computacional. 
+> Ano: 		- 2018
+> Linguagem: 	- Matlab
+> Abordagem: 	- Logica Fuzzy
+> Acurácia:	- 86.35%
+> Aplicação:	- FarmGO, AgriSolus e Integrada
+
+
++----------------------------------------------------+
+| PRoA: AN INTELLIGENT MULTI-CRITERIA PERSONALIZED   |
+|	ROUTE ASSISTANT 			     |
++----------------------------------------------------+
+
+> Proposta: 	- Desenvolver um projeto específico de rotas "verdes" e acessíveis 
+		para pedestres
+> Ano: 		- 2018
+> Linguagem: 	- pseudocodigo
+> Abordagem: 	- Nao identificado
+> Acurácia:	- Rotas + seguras e, por vezes, mais curtas que as sugeridas no google maps
+> Aplicação:	- Veltec: sugestao de rotas e pontos de paradas para motoristas.
+
+
++----------------------------------------------------+
+| AN ANALYSIS OF INFLUENTIAL USERS FOR PREDICTING    |
+|	THE POPULARITY OF NEWS TWEETS		     |
++----------------------------------------------------+
+
+> Proposta: 	- Modelo preditivo de impacto de re-tweets de influencers (usuarios ativos
+		e usuarios populares) em tweets de noticias. Score de Atividade e Popularidade 
+		sao estabelecidos como forma de relacionar os dois tipos de usuarios.
+> Ano: 		- 2016
+> Linguagem: 	- Nao especificada
+> Abordagem: 	- Regressao linear multipla
+> Acurácia:	- Superior (comparado a algoritmos baseados em conteudo e autoria da noticia)
+> Aplicação:	- Boticario: previsao de tendencia monitorando atividade de influencers.
+
+
++----------------------------------------------------+
+| TEXT RETRIEVAL FROM SCANNED FORMS USING OCR        |
++----------------------------------------------------+
+
+> Proposta: 	- Aplicar processamento de imagem e algoritmos de ML para extrair 
+		texto de documentos escaneados. Sugerido redes neurais para documentos mais 
+		complexos e expansao para letras minusculas.
+> Ano: 		- 2018
+> Linguagem: 	- Nao especificada
+> Abordagem: 	- Regressao logistica
+> Acurácia:	- "Acuracia razoavel" (variedade de tamanhos de fonte, cor e layout do doc).
+> Aplicação:	- CNR e Acesso Digital.
+
+
++----------------------------------------------------+
+| A CONVOLUTION-BASED APPROACH FOR FIXED-PATTERN     |
+|	NOISE REMOVAL IN OCR			     |
++----------------------------------------------------+
+
+> Proposta: 	- Remocao de ruido em deteccao de texto via OCR para melhorar acuracia
+		no reconhecimento de caracteres.
+> Ano: 		- 2018
+> Linguagem: 	- Nao especificada
+> Abordagem: 	- Baseada em convolucao para remocao de ruidos em padroes fixos com OCR
+> Acurácia:	- 97,02%
+> Aplicação:	- CNR e Acesso Digital
+
+
++----------------------------------------------------+
+| HOW AI AND ML RESEARCH IMPACTS PAYMENT CARD FRAUD  |
+|	DETECTION				     |
++----------------------------------------------------+
+
+> Proposta:	- Benchmark contínuo dos métodos de detecção de fraudes de cartao de 
+		credito utilizando volumes transacionais em 2017. 
+> Ano:		- 2018 (referente a 2017)
+> Linguagem: 	- Nao especificada
+> Abordagem:	- Levantamento das 8 abordagens de melhor performance na industria
+> Acurácia:	- Variavel [1o lugar: 99,98% (tamanho da BD varia)]
+> Aplicação:	- Sicoob: analise de fraudes
+
+
++----------------------------------------------------+
+| PREDICTING USER PREFERENCE IN PAIRWISE COMPARISONS |
+|	BASED ON EMOTIONS AND GAZE		     |
++----------------------------------------------------+
+
+> Proposta:	- Previsao de preferencia de um usuario com base em expressoes
+		faciais e comportamento do olhar. [o autor sugere gameficacao
+		como treinamento do algoritmo: uma integracao do resultado com 
+		um jogo para prever o mais rapido possivel a preferencia do usuario]
+> Ano:		- 2018
+> Linguagem: 	- Nao especificada
+> Abordagem:	- WoMan Process Mining framework para apreender as preferencias
+> Acurácia:	- supera significativamente a previsão de um classificador aleatório total
+> Aplicação:	- Util para empresas de varejo (dentro e fora do escopo da residencia)
+
+
+
+
+
+
+
+
+
+

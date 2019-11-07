@@ -1,0 +1,28 @@
+> Design of an AI System for Predicting Success of New Product Development and Selecting Proper Market-Product Strategy in the Food Industry
+**************************************************
+***** PODE SER APROVEITADO PARA OUTRAS AREAS *****
+**************************************************
+https://www.wageningenacademic.com/doi/abs/10.22434/IFAMR2017.0033
+
+> A Survey of ML Techniques for Food Sales Prediction
+https://link.springer.com/article/10.1007/s10462-018-9637-z
+
+> Recent Developments of Artificial Intelligence in Drying of Fresh Food: A Review
+https://www.tandfonline.com/doi/abs/10.1080/10408398.2018.1446900
+
+> Prediction of Pork Loin Quality Using Online Computer Vision System and AI Model
+https://www.sciencedirect.com/science/article/abs/pii/S0309174017314481
+
+> Convergent Innovation in Food through Big Data and Artificial Intelligence for Societal-Scale Inclusive Growth
+https://timreview.ca/article/1139
+
+> AI in the Production Process
+https://www.sciencedirect.com/science/article/pii/B9780128152584000020
+
+> Using AI to Create Value in Insurance
++-------------------------------------------------------------------------------------+
+| ESTUDO VOLTADO PARA SEGUROS, MAS PODE SER UTIL QUANTO AO VALOR AGREGADO DE CHATBOTS |
++-------------------------------------------------------------------------------------+
+https://www.emerald.com/insight/content/doi/10.1108/IJBM-01-2017-0015/full/html
+
+>

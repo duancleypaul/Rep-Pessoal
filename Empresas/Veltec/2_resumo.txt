@@ -1,0 +1,14 @@
++------------------------------------------------------------------+
+| STUDY ON TRAFFIC SIGN RECOGNITION BY OPTIMIZED LENET-5 ALGORITHM |
++------------------------------------------------------------------+
+
+> Proposta: 	- Apresentar solucao de reconhecimento de placas de transito em tempo real
+		e com alto grau de confiabilidade.
+> Ano: 		- 2019
+> Linguagem: 	- Nao especificada
+> Abordagem: 	- Alteracao do algoritmo Lenet-5
+> Acurácia:	- 96%
+> Aplicação:	- Veltec: atualizacao de placas de limite de velocidade
+
+
+

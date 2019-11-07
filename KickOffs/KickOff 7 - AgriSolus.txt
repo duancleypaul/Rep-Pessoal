@@ -1,0 +1,30 @@
++----------------------------+
+| KickOff 7 - AgriSolus (SP) |
++----------------------------+
+
+--> 1 cota
+
+> Foco: aviarios (granja) [slogan: Aviario 4.0]
+> Sensores: peso, temperatura, umidade, volume de racao (nao confiavel)
+
+> Estao trabalhando ha 8 meses em 2 granjas com mais sensores e mais atuadores.
+
+> As duas BD estarao disponiveis para nos
+
+> A cada 30min eh upado info desses sensores (media ou moda, nao lembro).
+
+//-- O que se quer:
+> Previsao de peso e conversao alimentar: diminuir o tempo de engorda do frango para abatimento
+> Previsao de doencas: hj eh baseado em peso (peso muito alto ou baixo, sintoma de doenca). Melhorar isso!
+ 
+> Sensores nas 2 granjas: comsumo de racao e agua, CO2 no ambiente, luminosidade, temperatura da agua, [...]
+
+> Acesso aos dados ainda nao foi definido. Possuem TI, entao pode ser que seja feito via API
+
+
+
+
+
+
+
+

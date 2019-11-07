@@ -1,0 +1,31 @@
++----------------------+
+| KickOff 10 - QExpert |
++----------------------+
+
+> O que ela fez para a Boticario: previsao de qual produto vai sair, para produzir muito e parar a producao (economiza energia)
+--> recomendacao de produtos: app de sugestao de venda para franquias
+--> monitoramento da higiene dos banheiros: analisa fluxo e da sugestoes de limpeza.
+
+> O que ela fez para a DM9DDB (AMBEV):
+--> Estudar 36 gatilhos de venda pra ver onde o marketing seria mais eficiente (tirou propaganda de cerveja durante o jogo e colocou propaganda durante o caldeirao do hulk (ou horarios antes do jogo)
+
+> Fazem verificacao de uso de EPI
+
+> Tambem estao dentro da RUMO:
+--> Vao entregar dia 15: verificar a condicao dos operadores (fadiga, droga, bebida...). Na hora de bater ponto, tem um joguinho (gameficacao) que filma o rosto do trabalhador e registra a reacao dele. Caso ele esteja sob efeito de drogas, o sistema identificara fulga do perfil daquele trabalhador.
+
+//--- LEVANTAMENTO DE ESTADO DA ARTE
+> Como melhorar a acuracia do que eles ja fazem
+> Eles garante por contrato um percentual de acerto.
+
+//-- AUTOMACAO DE TREINO
+> Comeca a rotular imagens e, a partir de certo ponto, o algoritmo comeca a sugerir as proximas imagens
+
+
+
+
+
+
+
+
+

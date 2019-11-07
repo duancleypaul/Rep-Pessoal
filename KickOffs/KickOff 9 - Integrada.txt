@@ -1,0 +1,23 @@
++----------------------------------+
+| KickOff 9 - Integrada (Londrina) |
++----------------------------------+
+
+> Insumos
+
+> Ja trabalharam com a TOTVS, fizeram identificacao de pragas, identificacao de qualidade
+
+> Fizeram BI para uso dos consultores da empresa (chatbot integrado com o telegram)
+
+> Predicao com modelos matematicos para identificar fraude de pesagem (usando auterix)
+
+//--- OBJETIVOS
+
+------> PEGAR MAPA MENTAL COM MURIEL <------
+
+* Racao Premium pra Pets (analise de mercado pra isso, aceitacao, etc)
+
+* Analisar situacao de mercado, sugerir plantacao e os recursos necessarios
+
+* Qualidade dos graos
+
+* Assistente virtual: chatbot para consumidor de sugestao de produtos.

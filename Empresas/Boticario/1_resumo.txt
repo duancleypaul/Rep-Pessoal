@@ -1,0 +1,15 @@
++-----------------------------------------------------+
+| AN ANALYSIS OF INFLUENTIAL USERS FOR PREDICTING THE |
+|	POPULARITY OF NEWS TWEETS		      |
++-----------------------------------------------------+
+
+> Apesar de muitos estudos terem sido extensivamente pesquisados sobre predição de popularidade de tweets, geralmente foca-se em recursos baseados em conteúdo e autoria (quem e o quê).
+
+> Este artigo visa estudar o impacto de influencers que RETWEETAM tweets (retweeters), e apresenta medidas simples e eficientes para prever a influência de retweeters na popularidade de novos tweets (qual o tamanho da influência desses "retweeters" em novos tweets).
+
+> Ao analisar a popularidade de novos tweets e o impacto dos retweeters, várias medidas uteis são definidas para avaliar a influência de usuários na rede de retweeters, o que é utilizado para estabelecer o modelo preditivo.
+
+> Os resultados do modelo apresentam alta performance e acurácia.
+
+//--- O CAMINHO UTILIZADO NESTE ARTIGO PODE SER APROVEITADO PARA A PREDIÇÃO DE TENDENCIA DA BOTICARIO. 
+//--- UMA COISA QUE PODE SER APROVEITADA É ANALISAR NÃO SÓ OS INFLUENCERS, MAS O IMPACTO QUE ELES TÊM NA POPULARIZAÇÃO DE POSSÍVEIS NOVAS TENDÊNCIAS.

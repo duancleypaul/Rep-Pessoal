@@ -1,0 +1,22 @@
++----------------------------------------------+
+| HYBRID COMPUTATIONTAL INTELLIGENCE ALGOs AND |
+|	THEIR APPs TO DETECT FOOD QUALITY      |
++----------------------------------------------+
+
+> O artigo visa desenvolver algoritmos baseados em dados visuais para acessar a qualidade de alimentos e alocá-los em armazenamentos para detectar sinais de deterioração
+
+> O artigo apresenta várias tecnicas de segmentação para encontrar alimentos estragados
+
+> Desenvolvidos:
+--> novas tecnicas de otimização para melhorar algoritmos de agrupamento K-means e thresholding multinivel
+--> hibrido: moth flame optimization (MFO) e gravitaitonal search algo (GSA)
+--> hibrido: particle swarm optimization (PSO) com MFO e GSA
+
+> Foram usadas imagens segmentadas com K-means otimizado para executar extração através de local binary patterns (LBP).
+
+.
+.
+.
+
+
+

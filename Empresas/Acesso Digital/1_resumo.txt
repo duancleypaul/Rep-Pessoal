@@ -1,0 +1,11 @@
++-------------------------------------------+
+| FACE RECOGNITION BENCHMARK WITH ID PHOTOS |
++-------------------------------------------+
+
+> Poucos modelos de reconhecimento facial conseguem performar bem em casos reais quando o sujeito a ser reconhecido possui amostras limitadas.
+
+> Não há base de dados que contenha foto de ID e fotos "reais" simultaneamente.
+
+> A pesquisa coletou ID-photo de 100 celebridades e respectivas 1000 fotos paradas ou cotidianas para formar uma base FDID - face database ID.
+
+> É proposto um novo algoritmo de reconhecimento facial, que é validado nessa base de dados com videos real-life

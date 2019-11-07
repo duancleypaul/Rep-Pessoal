@@ -1,0 +1,14 @@
++------------------------------------------------------------------+
+| PRoA: An intelligent multi-criteria Personalized Route Assistant |
++------------------------------------------------------------------+
+
+> Apps traçam rotas para pedestres baseadas em apenas 2 coisas: distância e tempo.
+
+> O artigo propõe analisar o problema chave de rotas personalizadas para pedestre e, partindo daí, abordar um projeto específico de rotas "verdes" e acessíveis para pedestres
+
+> A proposta é implementada como um App Androide free (PRoA - Personalized Route Assistant)
+
+> Foram usados casos reais da cidade de Granada, na Espanha
+
+
+//--- O ARTIGO PODE CONTER CONHECIMENTO LIGADO AOS PROJETOS RELACIONADOS A ROTA DA RUMO E DA VELTEC

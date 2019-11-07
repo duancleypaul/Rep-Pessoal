@@ -1,0 +1,35 @@
++---------------------+
+| KickOff 8 - Cocamar |
++---------------------+
+
+--> 1 cota
+
+1. Querem trabalhar com agricultura de precisao
+
+2. Querem usar os dados das maquinas (geolocalizacao, qtd de sementes plantadas, etc... tem muito sensor nos tratores) para prever safra/producao (parecido com a FarmGO)
+
+3. Previsao de manutencao utilizando os dados das maquinas
+
+4. Verificacao da rotatividade do dinheiro em caixa, para garantir os pagamentos. Seria um gerenciamento de capital de giro. 
+---> Para isso, utilizar todo e qualquer dado externo para analisar se corre riscos de estourar o caixa interno.
+---> Usar tempo de armazenagem nos silos (quanto mais tempo estiver uma semente no silo, menor a qualidade)
+
+5. Direcionamento de producao e defesa de acordo com dados externos (pragas na regiao, clientes e platancao de cada cliente, dados metereologicos, etc). Ver se tem recursos suficientes para se defender de eventos prejudiciais ou eventos de oportunidades.
+
+6. Gestao de propriedades. Auxilio na tomada de decisao (trabalho do consultor) na producao, defesa contra pragas, culturas especificas (tudo voltado para produto).
+
+7. Auditor digital: visao computacional para verificar qualidade da semente e fazer catalogacao. Hoje isso eh feito por pessoas visualmente.
+
+8. Comprador digital: automatizar o processo de compra (chatbot de compra). Saber fornecedores e, baseado nisso, saber como esta o estoque e como esta o mercado, tornando o "dinheiro parado" o menos ocioso possivel. 
+
+9. Pricing dos produtos (varejo): analisar produtos da concorrencia e precificar o produto deles, mantendo a competicao (notas parana)
+
+10. Analise de produtos e sugestao para clientes.
+
+//--- SPRINT 1: analisar dados, levantamento de estado da arte, riscos, etc... Ver o que eh aplicavel, alinhando o foco da residencia e o objetivo deles (ganhar no argumento).
+
+
+
+
+
+

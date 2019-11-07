@@ -1,0 +1,24 @@
++-------------------+
+| KickOff 1 - BOSCH |
++-------------------+
+
+> Cobranca: 1 POC por SPRINT
+
+> Eles farao uma banca interna para listar possiveis projetos
+
+> Soh descobriremos os projetos depois da banca (31-out)
+
+//--- Verificacao de processos
+
+> Atualmente: verifica estado da peca -> processa a peca -> verifica novamente
+
+> Querem remover a terceira etapa, usando previsao
+
+//--- Visao computacional para usinagem
+
+> Estender a vida util das ferramentas de usinagem.
+> Hj eles trocam a ferramenta num numero X de pecas produzidas, independente do estado
+
+> Eles querem usar a ferramenta O MAXIMO POSSIVEL, da forma mais segura possivel
+
+

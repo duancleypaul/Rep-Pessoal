@@ -1,0 +1,104 @@
++-------------------------------+
+| FACIAL AND AFFECT RECOGNITION |
++-------------------------------+
+
+1. FACIAL AND AFFECT RECOGNITION
+
+> Uso mais disseminado em cias e governos, aplicados em moradias publicas, contratacoes, vias publicas, etc.
+
+> Linhas aereas americanas estao utilizando para substituir o cartao de embarque, alegando maior conviniencia
+
+> A psicologa Lisa Feldman Barret afirma que esse tipo subconjunto do reconhecimento facil (reconhecimento de afeicao) nao possui fontes cientificas confiaveis. Apesar disso, o subconjunto ja tem sido utilizado em salas de aulas e entrevistas de emprego (sem o conscentimento das pessoas).
+
+> O FBI e ICE tem acessado silenciosamento a base de dados de licencas de motoristas, conduzindo pesquisas de reconhecimento facial em imagens sem o consento dos individuos ou autorizacao governamental.
+
+> O artigo tambem aponta que o Facebook poderia ser processado pelo uso de reconhecimento facial sem consento, alegando invasao de privacidade
+
+> Nos EUA, ha manifestacoes contra o uso de reconhecimento facial. Algumas cidades ate redigiram leis proibindo a pratica.
+
+> Na Europa, UK, comites parlamentares foram submetidos a audiencias a fim de interromper o uso de reconhecimento facial. Ate a policia foi pega em uso ilegal de reconhecimento facial.
+
+> Opiniao popular: "a pratica eh perigosa quando falha e danosa quando funciona".
+
++------------------------------+
+| 2. FROM "AI BIAS" TO JUSTICE |
++------------------------------+
+
+> Ex-governador do Michigan, Rick Snyder, decidiu instalar um sistema de desicao automatizado chamado MiDAS, designado a identificar automaticamente trabalhadores suspeitos de fraudar beneficios. Com o objetivo de cortar custos, o MiDAS causou a demissao de toda a divisao de deteccao de fraude. Mas acabou que o MiDAS estava errado em 93% das vezes, acusando falsamente mais de 40mil residentes, causando falencias e suicidios.
+
+> Outro caso como o de Michigan relata o uso de registros contaminados (vindos de racismo e corrupcao policial) na aplicacao de reconhecimento facial.
+
+> Em casos assim, acabar com o preconceito contra a aplicacao de IA vai alem de simples correcoes no codigo. Trata-se de mudanca nas praticas policiais que produzem os dados.
+
++----------------------------------+
+| 3. CITIES, SURVEILLANCE, BORDERS |
++----------------------------------+
+
+> Amazon's Ring: dispositivo de monitoramento que promete registro de imagens 24/7. A Amazon fez parceria com mais de 400 dpto de policia para promover o dispositivo. A condicao da Amazon era de ter acesso continuo as imagens obtidas pelos dispositivos. Enquanto a policia poderia ter acesso a um repositorio de videos quando quiser. 
+	> A empresa ja registrou patente
+	> Objetivo eh usar as imagens para cruzar com banco de
+	  dados de "pessoas suspeitas"
+
+> O topico "Smart Cities" eh polemico por "categorizar" pessoas em boas ou mas, com base na aparencia (injustica e desigualdade).
+
+> San Diego e Hong Kong: prefeitura tentou colocar "postes inteligentes" e a populacao respondeu com protestos, lasers e mascaras de gas para confundir as cameras.
+
+> Lockport, NY: protesto contra reconhecimento facial nas escolas por dar ao distrito a capacidade de rastrear e mapear qualquer aluno ou professor, qualquer hora.
+
+> Fronteira Sulista dos EUA: sistemas de IA implantados pela ICE, Alfandega e Patrulha da Fronteira.
+	> 52mil imigrantes confinados em prisoes/detencoes
+	> 40mil moradores de rua na fronteira com Mexico
+	  aguardando para registrar caso de asilo
+	> 7 criancas morreram sob custodia da ICE no ultimo ano
+	> Muitos enfrentaram alimentacao e cuidados medicos
+	  precarios
+
++------------------------------------+
+| 4. LABOR, WORKER ORGANIZING and AI |
++------------------------------------+
+
+> Vies do IA: dados enviezados em sistemas de IA.
+
+> Cultura de captacao de recurso no MIT que colocar status e dinheiro acima da seguranca de mulheres. Mulheres negras com pouco poder institucional sao as primeiras a se manifestarem.
+
+> IDENTIFIQUEI UM PROBLEMA: os sistemas de IA acabam formando um vies de classe, raca e genero por causa da qualidade do banco de dados.
+
+> Basicamente o artigo fala que AI esta' tratando seres humanos como objetos, nao lhes oferecendo direitos devidos, pagando mal e se aproveitando das AIs para lucrar. (BS)
+
+
++------------------------+
+| 5. AI's CLIMATE IMPACT |
++------------------------+
+
+> IA eh uma tecnologia que consome energia com grande intensidade, consumindo uma enorme quantidade de recursos naturais.
+
+> Pesquisa feita por Emma Strubell (da Amherst) disse que treinamento de sistemas IA deixam um rastro significativo de CO2.
+--> O time da pesquisadora mostrou que criando apenas 1 modelo de IA de NLP pode emitir ate 272mil kg de CO2, mesma quantidade emitida por 125 viagens ida e volta de aviao entre NY e Beijing.
+
+> Essa producao de CO2 geralmente eh mascarado pelo conceito de CLOUD. Mas estima-se que a infraestrutura computacional emite tanto CO2 quanto a industria da aviacao.
+
+> Acoes de trabalhadores do setor tech estao se mobilizando para protestar a favor da preservacao climatica, exigindo ZERO emissao de CO2 ate 2030.
+
+
++-------------------------+
+| 6. THE GROWING PUSHBACK |
++-------------------------+
+
+> Os problemas que emergem do uso de IA sao sociais, culturais e politicos, e nao meramente tecnicos, como se costuma pensar.
+
+> Problemas: justica criminal, direitos trabalhistas, racismo, igualdade de genero.
+
+> A review de 2019 relembra a quem quer implementar IA que ainda ha uma janela de oportunidade para decidir que tipos de IA sao aceitaveis e como torna-los "responsaveis" (accountables)
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
++----------------------------+
+| KickOff 2 - Acesso Digital |
++----------------------------+
+
+> Ja utilizam IA (porem eh fechada)
+--> A IA gera uma hash
+
+//--- Sistema Liveness:
+
+> Verificar se a foto eh de uma foto ou de um cartaz, foto de foto, etc...
+
+> 
+
+//--- Deteccao de Documentos Falsos:
+
+> Reduzir escopo para CNH
+
+//--- OCR de Documentos:
+
+> Hj usam um API generico da google
+> Reduzir escopo para CNH
