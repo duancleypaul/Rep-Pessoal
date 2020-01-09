@@ -1,0 +1,216 @@
++--------------------+
+| BASICO - MODULO 01 |
++--------------------+
+
+//--- AULA 01
+> Diz que vai apresentar a plataforma, mesmo pra quem já conhece
+
+
+//--- AULA 02
+> Mostra a janela OBSERVAÇÃO DO MERCADO
+---> Mostra cotações dos ativos
+
+
+//--- AULA 03
+> Mostra como adicionar colunas na janela
+> informações contidas em cada ativo
+> Mostra conteúdode cada aba da janela
+
+
+//--- AULA 04
+> Ainda na janela OBSERVAÇÃO DO MERCADO
+> 2 cliques abaixo do ativo abre uma caixa de texto pra inserir um novo ativo
+> Arrastar o ativo para a janela cinza do metatrader irá abrir um gráfico com aquele ativo
+
+
+//--- AULA 05
+> Ainda na janela OBSERVAÇÃO DO MERCADO
+> botao direito > mostrar todos : mostra todos os ativos existentes 
+> botao direito > ocultar todos : oculta todos os ativos, menos os que possuírem gráfico aberto
+
+
+//--- AULA 06
+> Ainda na janela OBSERVAÇÃO DO MERCADO
+> Deixar o mínimo de informação possível na tela, pra otimizar a performance da plataforma
+
+
+//--- AULA 07
+> Explica o conteudo da Janela NAVEGADOR
+
+
+//--- AULA 08
+> Ainda na janela NAVEGADOR
+> Explica a aba CONTAS
+> Ensina a criar conta demo via mt5
+
+
+//--- AULA 09
+> Mostra como os servidores e contas são exibidos na janela NAVEGADOR
+> Vc pode ter quantas contas e quantos servidores quiser, mas só pode utilizar uma conta em um servidor por vez.
+
+
+//--- AULA 10
+> Clicando em AJUDA dá pra ver a Build do mt5
+> Abrir conta no servidor MetaQuotes-Demo, para atualizar a build
+
+
+//--- AULA 11
+> Mostra ping do servidor e explica que dá pra colocar na núvem pra reduzir latência
+
+
+//--- AULA 12
+> Janela CAIXA DE FERRAMENTAS
+> Aba Negociação
+
+
+//--- AULA 13
+> CAIXA DE FERRAMENTAS
+--> Aba EXPOSIÇAO
+
+
+//--- AULA 14
+> CAIXA DE FERRAMENTAS
+--> Aba HISTORICO
+
+
+//--- AULA 15
+> CAIXA DE FERRAMENTAS
+--> Abas NOTICIAS, CAIXA DE EMAIL (correio), MERCADO, ALERTAS, SINAIS
+> Mostra como os sinais ficam registrados na plataforma do mql5
+
+
+//--- AULA 16
+> Mostra como os sinais ficam registrados na plataforma do mql5
+
+
+//--- AULA 17
+> Mostra como os sinais ficam registrados na plataforma do mql5
+
+
+//--- AULA 18
+> Ensina como criar um sinal
+> NÃO CRIAR SINAL QUANDO ESTIVER POSICIONADO. FECHAR A POSIÇÃO ANTES DE CRIAR O SINAL!
+
+
+//--- AULA 19
+> CAIXA DE FERRAMENTAS
+--> Aba BIBLIOTECA mostra códigos gratuitos no site mql5
+
+
+//--- AULA 20
+> CAIXA DE FERRAMENTAS
+--> Aba EXPERTS: aba mais importante para EAs
+
+
+//--- AULA 21
+> CAIXA DE FERRAMENTAS
+--> Aba EXPERTS e DIARIO
+> 4 abas mais importantes: NEGOCIÇÕES, HISTORICO, EXPERTS e DIARIO
+
+
+//--- AULA 22
+> NAO EXISTE
+
+
+//--- AULA 23
+> TESTADOR DE ESTRATEGIAS
+--> Exibir > Testador de Estratégias (Ctrl+R)
+> Mt5 permite ligar computadores em paralelo para utilizar os nucleos em conjunto e otimizar a performance dos testes
+> *** ESSA AULA ENSINA COMO FAZER ISSO ***
+
+
+//--- AULA 24
+> O mql5 tbm possui nucleos disponiveis para "alugar" (usar a nuvem do mql5).
+
+
+//--- AULA 25
+> Ensina a deixar a tela do notebook dividida em 2 (lado direito com mt5 e lado esquerdo com MetaEditor)
+
+
++--------------------+
+| BASICO - MODULO 02 |
++--------------------+
+
+//--- AULA 26
+> Apresenta o MetaEditor
+> Cria um Script (Coaching_Teste)
+
+
+//--- AULA 27
+> Após compilar o script criado, o arquivo aparece no metatrader, janela Navegador, pasta Scripts
+
+
+//--- AULA 28
+> Cria um EA (Coaching_EA)
+> Mostra o EA no metatrader, janela Navegador, pasta Expert Advisor
+> O mesmo eh feito com a criação de um indicador
+
+
+//--- AULA 29
+> Diferença entre EA, Script e Indicador
+
+
+//--- AULA 30
+> Print("Hello World!"), no script criado, dentro de OnStart
+> Mostra o lugar onde os Erros aparecem, se presentes
+
+
+//--- AULA 31
+> Pulou para TerceiraFuncao()
+---> ESSA AULA PERTENCE AO MODULO 5 AULA 60 (está repetida)
+
+
+//--- AULA 32
+> Arrasta o script compilado para dentro de um grafico
+--> Mostra a interação do script com o gráfico, e que ele só roda 1 vez
+--> Mensagens aparecem na aba EXPERTS da CAIXA DE FERRAMENTAS
+
+
++--------------------+
+| BASICO - MODULO 03 |
++--------------------+
+
+//--- AULA 33
+> 
+
+//--- AULA 34
+> 
+
+//--- AULA 35
+> 
+
+//--- AULA 36
+> 
+
+//--- AULA 37
+> 
+
+//--- AULA 38
+> 
+
+//--- AULA 39
+> 
+
+//--- AULA 40
+> 
+
+//--- AULA 41
+> 
+
+//--- AULA 42
+> 
+
+//--- AULA 43
+> 
+
+
+
++--------------------+
+| BASICO - MODULO 04 |
++--------------------+
+
+
+
++----------------------+
+| AVANÇADO - MODULO 01 |
++----------------------+
