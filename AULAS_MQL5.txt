@@ -171,46 +171,508 @@
 +--------------------+
 
 //--- AULA 33
-> 
+> Aba NEGOCIAÇÃO do mt5
+
 
 //--- AULA 34
-> 
+> ctrl+G = grid on/off no grafico do mt5
+> botão direito > salvar como imagem > OK
+--> abre o mql5.com e salva na sua conta o print
+
 
 //--- AULA 35
-> 
+> mql5 eh baseada em c++
 
 //--- AULA 36
-> 
+> fala sobre c++
+
 
 //--- AULA 37
-> 
+> mql5 (c++) vs mql4 (c)
+> 3 tipos de programas: EAs, scripts e indicadores
+> MetaEditor eh a IDE do mql5
 
 //--- AULA 38
-> 
+> SINTAXE:
+--> Comentário linha: //
+
 
 //--- AULA 39
-> 
+> SINTAXE:
+--> Comentário bloco: /* [bloco] */
+--> ctrl+. : comentário de sessão
+--> ctrl+; : abre "//---"
+
 
 //--- AULA 40
-> 
+> mql5 eh case sensitive
+> Praxe:
+--> Função: MyFunction
+--> Variável: myVariable
+
 
 //--- AULA 41
-> 
+> Dar nomes intuitivos para as variáveis
+--> Ex: "saldoEmConta" é melhor que "sec"
+
 
 //--- AULA 42
-> 
+> ctrl+~ : comenta todas as linhas selecionadas
+> ctrl+ç : descomenta todas as linhas selecionadas
 
 //--- AULA 43
-> 
-
+> mql5 tem palavras reservadas (se mudar a corda da palavra, é reservada)
 
 
 +--------------------+
 | BASICO - MODULO 04 |
 +--------------------+
 
+//--- AULA 44
+> tipos de variáveis 
+--> Inteiros: char, short, int, long, uchar, ushort
+--> Lógicos: bool
+--> Texto: string
+--> Ponto flutuante: double, float
+--> Cor: color
+--> Data e hora: datetime
+--> Enumeradores: enum
 
+//--- AULA 45
+> Toda variavel tem:
+--> Tipo: int, string, float, datetime, etc...
+--> Identificador: nomeDaVariavel
+--> Valor: varia de acordo com o tipo
+
+//--- AULA 46
+> OBS: ao usar o tipo COLOR, o valor de cor atribuído à variável SEMPRE começará com "clr"
+---> Ex: clrWhite, clrBlack, etc...
+
+
+//--- AULA 47
+> OBS: ao usar o tipo DATETIME, o valor de data/hora atribuído à variável SEMPRE terá o formato D'YYYY.MM.DD HH:MM:SS'
+---> Ex: D'2020.01.11 18:57:31'
+
+
+//--- AULA 48
+> mql5 mostra a linha e coluna do erro encontrado
+> ctrl+G : ir para "nº da linha que deseja ir"
+--> tambémm dá pra dar 2 cliques no erro (o mt5 levará até a linha do erro identificado)
+
+
+//--- AULA 49
+> PDF com leitura complementar. É basicamente o texto de tudo que foi ensinado até aqui
+
+
+//--- AULA 50
+> Recomenda a leitura complementar e o manual do mql5
+
++--------------------+
+| BASICO - MODULO 05 |
++--------------------+
+//--- AULA 51
+> 
+
+
+//--- AULA 52
+> 
+
+
+//--- AULA 53
+> 
+
+
+//--- AULA 54
+> 
+
+
+//--- AULA 55
+> 
+
+
+//--- AULA 56
+> 
+
+
+//--- AULA 57
+> 
+
+
+//--- AULA 58
+> 
+
+
+//--- AULA 59
+> 
+
+
+//--- AULA 60
+> 
+
+
+//--- AULA 61
+> 
+
+
+//--- AULA 62
+> 
+
+
++--------------------+
+| BASICO - MODULO 06 |
++--------------------+
+
+//--- AULA 63
+> 
+
+
+//--- AULA 64
+> 
+
+
+//--- AULA 65
+> 
+
+
+//--- AULA 66
+> 
+
+
+//--- AULA 67
+> 
+
+
+//--- AULA 68
+> 
+
+
+//--- AULA 69
+> 
+
+
+//--- AULA 70
+> 
+
+
+//--- AULA 71
+> 
+
+
+//--- AULA 72
+> 
+
+
+//--- AULA 73
+> 
+
+
++--------------------+
+| BASICO - MODULO 07 |
++--------------------+
+
+//--- AULA 74
+> 
+
+
+//--- AULA 75
+> 
+
+
+//--- AULA 76
+> 
+
+
+//--- AULA 77
+> 
+
+
+//--- AULA 78
+> 
+
+
+//--- AULA 79
+> 
+
++--------------------+
+| BASICO - MODULO 08 |
++--------------------+
+
+//--- AULA 80
+> 
+
+
+//--- AULA 81
+> 
+
+
+//--- AULA 82
+> 
+
+
+//--- AULA 83
+> 
+
+
+//--- AULA 84
+> 
+
+
+//--- AULA 85
+> 
+
+
+//--- AULA 86
+> 
+
+
++--------------------+
+| BASICO - MODULO 09 |
++--------------------+
+
+//--- AULA 87
+> 
+
+
+//--- AULA 88
+> 
+
+
+//--- AULA 89
+> 
+
+
+//--- AULA 90
+> 
+
+
+//--- AULA 91
+> 
+
+
+//--- AULA 92
+> 
+
+
+//--- AULA 93
+> 
+
+
++--------------------+
+| BASICO - MODULO 10 |
++--------------------+
+
+//--- AULA 94
+> 
+
+
+//--- AULA 95
+> 
+
+
+//--- AULA 96
+> 
+
+
+//--- AULA 97
+> 
+
+
+//--- AULA 98
+> 
+
+
++--------------------+
+| BASICO - MODULO 11 |
++--------------------+
+
+//--- AULA 99
+> 
+
+
+//--- AULA 100
+> 
+
+
+//--- AULA 101
+> 
+
+
+
+//--- AULA 102
+> 
+
+
+
+//--- AULA 103
+> 
+
+
+//--- AULA 104
+> 
+
+
+//--- AULA 105
+> 
+
+
+//--- AULA 106
+> 
+
+
+//--- AULA 107
+> 
+
+
++--------------------+
+| BASICO - MODULO 12 |
++--------------------+
+
+//--- AULA 108
+> 
+
+
+//--- AULA 109
+> 
+
+
+//--- AULA 110
+> 
+
+
+//--- AULA 111
+> 
+
+
+//--- AULA 112
+> 
+
+
+//--- AULA 113
+> 
+
+
++--------------------+
+| BASICO - MODULO 13 |
++--------------------+
+
+//--- AULA 114
+> 
+
+
+//--- AULA 115
+> 
+
+
+//--- AULA 116
+> 
+
+
+//--- AULA 117
+> 
+
+
++--------------------+
+| BASICO - MODULO 14 |
++--------------------+
+
+//--- AULA 118
+> 
+
+
+//--- AULA 119
+> 
+
+
+//--- AULA 120
+> 
+
+
+//--- AULA 121
+> 
+
+
+//--- AULA 122
+> 
+
+
+//--- AULA 123
+> 
+
+
+//--- AULA 124
+> 
+
+
+//--- AULA 125
+> 
+
+
+//--- AULA 126
+> 
+
+
+//--- AULA 127
+> 
+
+
++--------------------+
+| BASICO - MODULO 15 |
++--------------------+
+
+//--- AULA 128
+> 
+
+
+//--- AULA 129
+> 
+
+
+//--- AULA 130
+> 
+
+
+//--- AULA 131
+> 
+
+
+//--- AULA 132
+> 
+
+
+//--- AULA 133
+> 
+
+
+//--- AULA 134
+> 
+
+
+//--- AULA 135
+> 
+
+|--------------------- FIM DO MÓDULO BÁSICO ---------------------|
 
 +----------------------+
 | AVANÇADO - MODULO 01 |
 +----------------------+
+
+//--- AULA 1
+> 
+
+
+//--- AULA 2
+> 
+
+
+//--- AULA 3
+> 
+
+
+//--- AULA 4
+
+
++----------------------+
+| AVANÇADO - MODULO 02 |
++----------------------+
+
+//--- AULA 5
