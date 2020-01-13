@@ -271,51 +271,66 @@
 | BASICO - MODULO 05 |
 +--------------------+
 //--- AULA 51
-> 
+> Fala sobre funções
+> Toda função tem: TIPO, NOME, ARGUMENTOS (opcional), CORPO
+--> nos argumentos, deve-se declarar o tipo do argumento também
+> Função SEM retorno
+--> tipo void
 
 
 //--- AULA 52
-> 
+> Estrutura de uma função:
+tipo NomeDaFuncao(tipo arg1, tipo arg2)
+{
+  corpo da função;
+}
 
 
 //--- AULA 53
-> 
-
+> Reforça que toda função tem TIPO, NOME, ARGUMENTOS e CORPO
+> Não pode definir uma função dentro de outra. As definições devem ser independentes. Já referenciar uma função, pode.
+> Faz uma funcao que soma x e y
 
 //--- AULA 54
-> 
+> Para referenciar (chamar) uma função, basta colocar o nome e, entre parenteses, os argumentos (se houver)
+--> Ex: MinhaFuncao();
 
 
 //--- AULA 55
-> 
+> NÃO TEM AULA 55
 
 
 //--- AULA 56
-> 
+> Mostra um script rodando hello world e uma função soma
 
 
 //--- AULA 57
-> 
+> Cria uma segunda função, dessa vez SEM retorno, mas COM argumentos
+> Mostra como referenciar (chamar) uma função void com argumentos
 
 
 //--- AULA 58
-> 
+> Mostra o resultado da função anterior exibido na aba negociação
 
 
 //--- AULA 59
-> 
-
+> Cria e chama uma função COM retorno e SEM argumentos
+> Estrutura de função com retorno, com ou sem argumentos (exemplo):
+tipo NomeDaFunção(tipo arg1, tipo arg2)
+{
+  return();
+}
 
 //--- AULA 60
-> 
+> Continua falando sobre funções (conteúdo não é relevante)
 
 
 //--- AULA 61
-> 
+> Reforça a estrutura de uma função COM retorno
 
 
 //--- AULA 62
-> 
+> Mostra como criar e chamar uma função COM retorno e COM argumento
 
 
 +--------------------+
@@ -323,47 +338,55 @@
 +--------------------+
 
 //--- AULA 63
-> 
-
+> Função OnStart: manipulador que é gerado automaticamente apenas na criação de SCRIPTS, que executa APENAS 1 VEZ
 
 //--- AULA 64
-> 
+> Criado o arquivo de EA: Coaching_EA1
 
 
 //--- AULA 65
-> 
+> Explica o que é OnInit, OnDeinit e OnTick
 
 
 //--- AULA 66
-> 
+> Mostra na prática a função OnInit
 
 
 //--- AULA 67
-> 
+> Mostra na prática a função OnDeinit e explica como funciona OnTick
+> OnTick roda toda vez que ocorre uma mudança (volume ou preço) no melhor negócio (melhor compra e venda)
 
 
 //--- AULA 68
-> 
+> OnTimer(): manipulador adicional, usado pra simular o EA quando o mercado está fechado.
+--> Associadas à função OnTimer, existem outras duas funções que são NECESSÁRIAS ao usar OnTimer
+----> Dentro de OnInit(): EventSetTimer(x);   // x é o tempo em segundos
+----> Dentro de OnDeinit(): EventKillTimer();
 
 
 //--- AULA 69
-> 
+> Mostra na prática como funciona a função OnTimer
+> Alternativa ao EventSetTimer() para usar Milissegundos: EventSetMillisecondTimer(x); // x é o tempo em milissegundos
 
 
 //--- AULA 70
-> 
+> No fim de semana usa OnTimer, durante a semana pega tudo de OnTimer e joga pra dentro de OnTick. Vai funcionar normalmente.
 
 
 //--- AULA 71
-> 
+> INPUTS: colocados ANTES de todas as funções do robô, mas depois das propriedades (#property)
+> Estrutura para colocar INPUTs no robô:
+  input tipo nomeDaVariavel = valor;    // Texto explicativo para o usuário
+  input int maxTrades = 5;    // Número máximo de trades
 
 
 //--- AULA 72
-> 
+> cria outro input e mostra como aparece para o usuário editar os parâmetros de cada input
 
 
 //--- AULA 73
-> 
+> Ao editar um input, o robô vai DESINICIALIZAR pra depois INICIALIZAR.
+> Ou seja, vai rodar OnDeinit() e depois OnInit()
 
 
 +--------------------+
@@ -371,58 +394,85 @@
 +--------------------+
 
 //--- AULA 74
-> 
+> Fala o que será passado nas próximas aulas
 
 
 //--- AULA 75
-> 
-
+> Explica o que é array de dados
 
 //--- AULA 76
-> 
+> Declaração de um array:
+  double myArray[] = {2.5, 1.2, 3.1};
 
 
 //--- AULA 77
-> 
+> Mostra que o array pode ter mais de 1 dimensão, basta adicionar colchetes []. 
+> Exemplo de matriz com 3 dimensões: double tresDimArray[][][]
 
 
 //--- AULA 78
-> 
+> Mostra como chamar cada elemento de um array. Ex: myArray[1] mostra o segundo elemento do array.
 
 
 //--- AULA 79
-> 
+> Mostra o que é e qual a necessidade de fazer a reindexação de um array (ArraySetAsSeries)
 
 +--------------------+
 | BASICO - MODULO 08 |
 +--------------------+
 
 //--- AULA 80
-> 
+> Acesso a dados de preço (OHLC), depois dos inputs, fora de todas as funções:
+  MqlRates candle[];
 
+> Dentro da função OnTick, usar CopyRates
 
 //--- AULA 81
-> 
+> Dentro de OnTick:
+  CopyRates(_Symbol, _Period, start_position, count, candle);
+  // start_position: a partir de qual candle? (candle atual = 0)
+  // count: até qual candle? (padrão = 5)
 
 
 //--- AULA 82
-> 
+> Agora o array "candle", que é do tipo MqlRates, possui os dados OHLC
+> Métodos contidos em "candle":
+--> .close
+--> .high
+--> .low
+--> .open
+--> .real_volume
+--> .tick_volume
+--> .time
+> Exemplo de como acessar a maxima do candle atual: 
+  Print("A máxima do candle atual é: ", candle[0].high);
 
 
 //--- AULA 83
-> 
+> Barra de tarefas > Exibir > Janela de Dados: mostra os dados de cada candle, conforme o mouse passa por cima
+> Mostra que é necessário fazer o ArraySetAsSeries
+> Invertendo a indexação das variáveis de preço, em OnInit: 
+  ArraySetAsSeries(candle, true);
 
 
 //--- AULA 84
-> 
+> Mostra como acessar open, high, low, close através do array candle[]
 
 
 //--- AULA 85
-> 
+> Dá pra pegar dados de preço de um ativo diferente do que está no gráfico atual. Pra isso, precisa declarar outro array MqlRates
+> Mostra que dá pra especificar o período do gráfico através de PERIOD_[...] (ao digitar PERIOD_, vai aparecer as opções)
 
+*** ISSO PODE SER UTIL CASO QUEIRA FAZER UM EA COM MULTIPLOS ATIVOS ***
 
 //--- AULA 86
-> 
+> CONTRATOS CONTÍNUOS (usar sempre $D)
+* OBS: no dia da rolagem, o código antigo e o código novo coexistem (apenas nesse dia de vencimento)
+--> $: reajustado por liquidez (no dia da rolagem, pega o código novo, que tem mais liquidez)
+--> @: reajuste por vencimento (no dia da rolagem, pega o código antigo)
+-->  : ajuste Proporcional (faz o encaixe da série).
+--> D: ajuste por Diferença.
+--> N: sem ajuste.
 
 
 +--------------------+
@@ -430,31 +480,51 @@
 +--------------------+
 
 //--- AULA 87
-> 
+> Acesso a dados de Tick
+  MqlTick tick;           // Não eh array, eh variavel simples
 
+> Dentro de OnTick: 
+  SymbolInfoTick(_Symbol, tick);
 
 //--- AULA 88
-> 
+> Agora a variavel tick, do tipo MqlTick, já possui dados de Tick
+> Métodos contidos em tick:
+--> .ask      (melhor preço de compra)
+--> .bid      (melhor preço de venda)
+--> .last     (valor do último negócio)
+--> .time     (hora do último negócio)
+--> .volume   (volume do último negócio)
 
 
 //--- AULA 89
-> 
+> Mostra como acessar os demais métodos supracitados
 
 
 //--- AULA 90
-> 
-
+> Para saber em qual ponta foi realizada a última negociação:
+if(tick.last == tick.ask)
+{
+  Print("Atividade compradora!");
+}
+if(tick.last == tick.bid)
+{
+  Print("Atividade compradora!");
+}
 
 //--- AULA 91
-> 
+> Acesso a dados de book
+  MqlBookInfo book[];       // é um array!
+*** NÃO IREI FAZER ANOTAÇÕES AGORA. ASSISTIR AULA NOVAMENTE PARA MAIS DETALHES ***
 
 
 //--- AULA 92
-> 
+> OnBookEvent() é um manipulador mais apropriado para EAs que utilizam book.
+*** NÃO IREI FAZER ANOTAÇÕES AGORA. ASSISTIR AULA NOVAMENTE PARA MAIS DETALHES ***
 
 
 //--- AULA 93
-> 
+> Continua tratando sobre book
+*** NÃO IREI FAZER ANOTAÇÕES AGORA. ASSISTIR AULA NOVAMENTE PARA MAIS DETALHES ***
 
 
 +--------------------+
@@ -462,23 +532,37 @@
 +--------------------+
 
 //--- AULA 94
-> 
+> Acesso a dados de indicadores
+> Dois tipos: Nativos e Externos
+> Technical Indicators: nativos 
 
 
 //--- AULA 95
-> 
+> Continuação da aula anterior
+> Code Base (mql5): externos ou customizados
 
 
 //--- AULA 96
-> 
-
+> Todo indicador precisa ter: 1) handle; 2) buffer (array);
 
 //--- AULA 97
-> 
+> Todo handle precisa ser do tipo INT;              // É a fonte dos dados 
+> Todo buffer precisa ser do tipo DOUBLE;           // Vetor onde serão alocados os dados
 
 
 //--- AULA 98
-> 
+> Utilizando um indicador nativo:
+
+> No escopo global: 
+    int       MA_Handle;
+    double    MA_buffer[];
+  
+> Em OnInit():
+    MA_Handle = iMA(_Symbol,_Period, ma_period, ma_shift, ma_method, applied_price);
+      --> ma_period: periodo da média móvel;
+      --> ma_shift: deslocamento;
+      --> ma_method: MODE_SMA (simples), MODE_EMA (exponencial);
+      --> applied_price: PRICE_CLOSE (fechamento), PRICE_OPEN (abertura), etc.
 
 
 +--------------------+
@@ -486,41 +570,46 @@
 +--------------------+
 
 //--- AULA 99
-> 
-
+> Em OnTick: CopyBuffer(MA_Handle, buffer_num, start_pos, count, MA_Buffer);
+    --> buffer_num: numero do buffer (quando há mais de 1 buffer, eles são enumerados por ordem de criação: 0, 1, 2, etc);
+    --> start_pos: posição (candle) inicial de onde vc quer copiar os dados;
+    --> count: quantidade de dados (candles) que quer copiar
+    --> MA_Buffer: buffer criado para armazenar os dados do indicador.
 
 //--- AULA 100
-> 
+> Acessando media móvel no candle atual: MA_Buffer[0];
+> Invertendo a indexação de MA_Buffer, em OnInit():
+      ArraySetAsSeries(MA_Buffer, true);
 
 
 //--- AULA 101
-> 
-
+> Mostra como usar um indicador nativo qualquer (exemplo usando iStochastic)
 
 
 //--- AULA 102
-> 
-
+> Mostra como usar um indicador externo qualquer (exemplo usando ozymandias_lite)
+> Baixar indicador, salvá-lo na pasta MQL5>Indicators, compilar arquivo na pasta.
 
 
 //--- AULA 103
-> 
+> Mostra como utilizar o indicador externo ozymandias_lite
+*** NÃO IREI FAZER ANOTAÇÕES AGORA. ASSISTIR AULA NOVAMENTE PARA MAIS DETALHES ***
 
 
 //--- AULA 104
-> 
+> Fala particularidades do iCustom, usado para importar indicadores customizados
 
 
 //--- AULA 105
-> 
+> Continua utilizando indicador customizado citado anteriormente
 
 
 //--- AULA 106
-> 
+> Continua utilizando indicador customizado citado anteriormente
 
 
 //--- AULA 107
-> 
+> Menciona que tem muitos indicadores customizados disponíveis no site do mql5
 
 
 +--------------------+
