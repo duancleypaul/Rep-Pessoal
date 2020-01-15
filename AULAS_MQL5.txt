@@ -693,28 +693,42 @@ void OnTick()
 > Para montar a requisição, bastar digitar "requisicao." dentro da estrutura do setup de compra/venda, e as opções aparecem para especificar
 
 //--- AULA 119
-> 
+> Continua falando sobre a especificação da requisicao
 
 
 //--- AULA 120
-> 
+> Continua falando sobre a especificação da requisicao
+OBS: Diferença entre tipos de ordem 
+  --> ORDER_FILLING_FOK: Fill or Kill (consome todos os contratos ao preço requisitado ou nenhum - tudo ou nada)
+  --> ORDER_FILLING_IOC: Immediate or Cancel (consome a quantidade que der e cancela o resto)
+  --> ORDER_FILLING_RETURN: consome a quantidade que der e deixa o resto na pedra
 
 
 //--- AULA 121
-> 
+> Continua falando sobre a especificação da requisicao
+*** VIDEO ACABA NO MEIO DA FRASE. NAO FALA SOBRE type_time, expiration, E comment ***
 
 
 //--- AULA 122
-> 
+> Após especificar os parâmetros da ordem, faz OrderSend(requisicao, resposta)
 
 
 //--- AULA 123
-> 
+> Ao compilar aparece um Warning: checar o resultado de OrderSend(). Para tratar isso:
+    bool ok = OrderSend(requisicao, resposta)
 
 
 //--- AULA 124
-> 
-
+> VERIFICAÇÃO DE SEGURANÇA NO ENVIO DE ORDENS (TRATANDO A VARIAVEL "ok"):
+--> 1. PRIMEIRO DE TUDO, resetar erro antes de declarar book ok = OrderSend(requisicao, resposta): 
+          ResetLastError();
+--> 2. ok==false: 
+          if(ok==false){
+              Print("Erro ao enviar ordem. Erro #", GetLastError());
+              //--- o que pode ser feito:
+              // 1) remover o EA
+              // 2) 
+          }
 
 //--- AULA 125
 > 
