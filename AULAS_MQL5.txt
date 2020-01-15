@@ -617,27 +617,33 @@ if(tick.last == tick.bid)
 +--------------------+
 
 //--- AULA 108
-> 
+> Diz que irá explicar o gráfico do caminho que a ordem percorre (envio, rejeição, aceite, etc)
 
 
 //--- AULA 109
-> 
+> Camadas (partes) envolvidas no roteamento de ordens:
+--> Programa (EA);
+--> Client Terminal (Terminal MT5);
+--> Servidor (Corretora);
 
 
 //--- AULA 110
-> 
+> EXPLICA DETALHADAMENTE COMO FUNCIONA O ROTEAMENTO DE ORDENS E QUAIS PERCURSOS A ORDEM PODE PERCORRER
+*** AULA IMPORTANTE PARA ENTENDIMENTO DO ROTEAMENTO DE ORDENS ***
 
 
 //--- AULA 111
-> 
+> Continua explicando o roteamento de ordens
+*** AULA IMPORTANTE PARA ENTENDIMENTO DO ROTEAMENTO DE ORDENS ***
 
 
 //--- AULA 112
-> 
+> A resposta de uma solicitação de envio/recebimento de ordem sempre será fornecida, a fonte é que muda (terminal ou servidor).
 
 
 //--- AULA 113
-> 
+> OrderSend(requisicao, resposta);
+
 
 
 +--------------------+
@@ -645,28 +651,46 @@ if(tick.last == tick.bid)
 +--------------------+
 
 //--- AULA 114
-> 
+> Event handler new bar mql5 (google)
+> Copiar funcao bool IsNewBar() para o EA
+> Digitar (datetime) antes de SeriesInfoInteger(...)
 
 
 //--- AULA 115
-> 
-
+> Para usar a funcao IsNewBar() citada anteriormente, basta criar uma variável booleana (dentro de OnTick) que receba o retorno dessa função
+> Ex:
+void OnTick()
+{
+    bool newBar = IsNewBar();
+    ...
+}
+----> Essa função é útil para pegar a confirmação do fechamento de um candle
 
 //--- AULA 116
-> 
+> Mostra o EA rodando com confirmação da função IsNewBar() + cruzamento de médias
 
 
 //--- AULA 117
-> 
-
+> Mostra como verificar, num mesmo EA, o fechamento do candle de outro tempo gráfico
+*** ÚTIL PARA ROBÔS QUE ANALISAM MAIS DE 1 TEMPO GRÁFICO ***
+---> Basta duplicar a função e, ao invés de usar _Period, especificar o período desejado (ex: PERIOD_M15)
+---> *** OBS: NÃO ESQUECER DE MUDAR O NOME DA FUNÇÃO PARA IsNewBar_M15() ***
+---> *** OBS_2: Também tem que criar uma variável booleana que recebe essa nova função, como feito em bool newBar = IsNewBar() ***
 
 +--------------------+
 | BASICO - MODULO 14 |
 +--------------------+
 
 //--- AULA 118
-> 
+> Monta um setup de compra/venda usando MqlTradeRequest e MqlTradeResult
+    MqlTradeRequest   requisicao;
+    MqlTradeResult    resposta;
 
+> Limpando memória das variáveis criadas:
+    ZeroMemory(requisicao);
+    ZeroMemory(resposta);
+
+> Para montar a requisição, bastar digitar "requisicao." dentro da estrutura do setup de compra/venda, e as opções aparecem para especificar
 
 //--- AULA 119
 > 
