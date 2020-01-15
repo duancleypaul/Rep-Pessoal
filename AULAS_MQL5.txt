@@ -725,21 +725,43 @@ OBS: Diferença entre tipos de ordem
 --> 2. ok==false: 
           if(ok==false){
               Print("Erro ao enviar ordem. Erro #", GetLastError());
+              ExpertRemove(); 
               //--- o que pode ser feito:
               // 1) remover o EA
-              // 2) 
+              // 2) retry no envio da ordem
+              // 3) enviar uma notificação / e-mail
+              // 4) imprimir um alerta
           }
 
+
 //--- AULA 125
-> 
+> Continuação... VERIFICAÇÃO DE SEGURANÇA NO ENVIO DE ORDENS (TRATANDO A VARIAVEL "ok"):
+
+    else {
+        Print("A ordem foi corretamente ENVIADA para a corretora.");
+        }
+
+> 2 códigos são de acertos: 10008 e 10009. O código 10010 pode ser acerto ou erro no envio, depende do que o robô deve fazer.
 
 
 //--- AULA 126
-> 
-
-
+> Dentro do ELSE anterior:
+    if(resposta.retcode == 10008 ||  resposta.retcode == 10009){
+        Print("Ordem corretamente EXECUTADA / COLOCADA.");
+    }
+    else {
+        Print("Erro ao executar a ordem. Erro #", GetLastError(), " / retorno = ", resposta.retcode);
+        ExpertRemove(); 
+        //--- o que pode ser feito:
+        // 1) remover o EA
+        // 2) retry no envio da ordem
+        // 3) enviar uma notificação / e-mail
+        // 4) imprimir um alerta 
+    }
+    
+    
 //--- AULA 127
-> 
+> ctrl+c ctrl+v para formar o setup de venda, com as devidas modificações (buy -> sell);
 
 
 +--------------------+
@@ -747,35 +769,45 @@ OBS: Diferença entre tipos de ordem
 +--------------------+
 
 //--- AULA 128
-> 
+> Roda backtest do EA de cruzamento de media (video acaba antes de cruzar)
 
 
 //--- AULA 129
-> 
+> Comentários sobre o que foi feito (irrelevante)
 
 
 //--- AULA 130
-> 
+> Adiciona SL e TP, usando MqlTick tick
 
 
 //--- AULA 131
-> 
+> Verificar se não está posicionado:
+      PositionSelect(_Symbol): retorna TRUE se estiver posicionado
 
 
 //--- AULA 132
-> 
+> Encapsula setup de compra a mercado dentro de uma função, com o nome CompraAMercado();
+> O mesmo é feito para VendaAMercado();
 
 
 //--- AULA 133
-> 
-
+> Encapsula setup de compra/venda PENDENTE, com o nome CompraPendente() e VendaPendente();
+> NÃO EXISTE SLIPPAGE EM ORDEM PENDENTE (deviation=0)
+> NÃO PODE SER ORDER FOK. DEVE SER ORDEM RETURN!!!!
 
 //--- AULA 134
-> 
+> *** VER ESSA AULA SOBRE REALIZAÇÕES PARCIAIS ***
 
 
 //--- AULA 135
-> 
+> CANCELAMENTO DE ORDEM: feito pelo ticket da ordem
+--> *** VER ESSA AULA SOBRE CANCELAMENTO DE ORDEM ***
+ulong CancelaOrdem(ulong _ticket)
+{
+    
+}
+
+
 
 |--------------------- FIM DO MÓDULO BÁSICO ---------------------|
 
@@ -784,18 +816,23 @@ OBS: Diferença entre tipos de ordem
 +----------------------+
 
 //--- AULA 1
-> 
+> Introduz o conceito de CLASSE da linguagem orientada a objeto
+> Praxe: iniciar nomes de classes com C. Ex: CParents
 
 
 //--- AULA 2
-> 
+> Fala sobre contrutor e destrutor da classe (não são obrigatórios);
 
 
 //--- AULA 3
-> 
+> Grupos de variáveis em uma classe:
+--> public: acessadas por outras classes
+--> private: acessadas somente pela própria classe e suas descendentes
+--> protected: acessadas somente pela própria classe
 
 
 //--- AULA 4
+> Explica a ideia de parentesco das classes
 
 
 +----------------------+
@@ -803,3 +840,223 @@ OBS: Diferença entre tipos de ordem
 +----------------------+
 
 //--- AULA 5
+>
+
+
+//--- AULA 6
+>
+
+
+//--- AULA 7
+> 
+
+
+//--- AULA 8
+> 
+
+
+//--- AULA 8
+> 
+
+
+//--- AULA 9
+> 
+
+
+//--- AULA 10
+> 
+
+
++----------------------+
+| AVANÇADO - MODULO 03 |
++----------------------+
+
+//--- AULA 11
+> 
+
+
+//--- AULA 12
+> 
+
+
+//--- AULA 13
+> 
+
+
+//--- AULA 14
+> 
+
+
+//--- AULA 15
+> 
+
+
+//--- AULA 16
+> 
+
+
+//--- AULA 17
+> 
+
+
+//--- AULA 18
+> 
+
+
+//--- AULA 19
+> 
+
+
++----------------------+
+| AVANÇADO - MODULO 04 |
++----------------------+
+
+//--- AULA 20
+> 
+
+
+//--- AULA 21
+> 
+
+
+//--- AULA 22
+> 
+
+
+//--- AULA 23
+> 
+
+
+//--- AULA 24
+> 
+
+
+//--- AULA 25
+> 
+
+
++----------------------+
+| AVANÇADO - MODULO 05 |
++----------------------+
+
+//--- AULA 26
+> 
+
+
+//--- AULA 27
+> 
+
+
+//--- AULA 28
+> 
+
+
+//--- AULA 29
+> 
+
+
++----------------------+
+| AVANÇADO - MODULO 06 |
++----------------------+
+
+//--- AULA 30
+> 
+
+
+//--- AULA 31
+> 
+
+
+//--- AULA 32
+> 
+
+
+//--- AULA 33
+> 
+
+
+//--- AULA 34
+> 
+
+
+//--- AULA 35
+> 
+
+
+//--- AULA 36
+> 
+
+
++----------------------+
+| AVANÇADO - MODULO 07 |
++----------------------+
+
+//--- AULA 37
+> 
+
+
+//--- AULA 38
+> 
+
+
+//--- AULA 39
+> 
+
+
+//--- AULA 40
+> 
+
+
+//--- AULA 41
+> 
+
+
++----------------------+
+| AVANÇADO - MODULO 08 |
++----------------------+
+
+//--- AULA 42
+> 
+
+
+//--- AULA 43
+> 
+
+
+//--- AULA 44
+> 
+
+
+//--- AULA 45
+> 
+
+
+//--- AULA 46
+> 
+
+
++----------------------+
+| AVANÇADO - MODULO 09 |
++----------------------+
+
+//--- AULA 47
+> 
+
+
+//--- AULA 48
+> 
+
+
+//--- AULA 49
+>
+
+
+//--- AULA 50
+>
+
++----------------------+
+| AVANÇADO - MODULO 10 |
++----------------------+
+
+//--- AULA 51
+> 
