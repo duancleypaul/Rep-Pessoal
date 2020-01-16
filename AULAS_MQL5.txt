@@ -840,71 +840,95 @@ ulong CancelaOrdem(ulong _ticket)
 +----------------------+
 
 //--- AULA 5
->
+> Explica o funcionamento de classe
+> Cria classe Father, Mother, Son, Daughter
 
 
 //--- AULA 6
->
+> Explica o funcionamento de classe
+> Mostra como dizer ao mt5 que Son e Daughter sao derivadas da classe Mother
 
 
 //--- AULA 7
-> 
+> Explica o funcionamento de classe
+> Cria variaveis publicas e privadas
 
 
 //--- AULA 8
-> 
-
-
-//--- AULA 8
-> 
+> Explica o funcionamento de classe
+> Definindo objeto do tipo CMother: 
+    CMother mae;
 
 
 //--- AULA 9
-> 
+> Explica o funcionamento de classe
+> Construtores e Destrutores nao sao obrigatorios, mas quando presentes, as suas respectivas funcoes precisam ser definidas.
 
 
 //--- AULA 10
-> 
-
+> Explica o funcionamento de classe
+> Declara funcao protegida, do tipo double, dentro da classe CMother. A funcao deve ser definida fora da classe CMother.
+  OBS: ver aula!
+> Como definir uma funcao que eh declarada dentro de uma classe:
+    tipo NomeDaClasse::NomeDaFuncao(void)
+    {
+      // corpo da funcao
+      // return (caso nao seja void)
+    }
+***  OBS: a declaracao do contrutor/destrutor eh igual, MAS NAO PRECISA COLOCAR O TIPO ***
 
 +----------------------+
 | AVANÇADO - MODULO 03 |
 +----------------------+
 
 //--- AULA 11
-> 
+> Continua explicando o funcionamento de classe
+> Mostra como os metodos da classe ficam disponiveis ao acesso via objeto.
 
 
 //--- AULA 12
-> 
+> Continua explicando o funcionamento de classe
+> Mostra, na pratica, as herancas entre as classes
 
 
 //--- AULA 13
-> 
+> Continua explicando o funcionamento de classe
+> Mostra, na pratica, as herancas entre as classes
 
 
 //--- AULA 14
-> 
+> Chama a atencao a classe CTrade, mas nao fala nada sobre ela ainda 
+(aula irrelevante)
 
 
 //--- AULA 15
-> 
+> Explica como importar uma classe (CChart):
+      #include <Charts\Chart.mqh>
 
 
 //--- AULA 16
-> 
+> Mostra como entender uma classe pela documentacao no portal mql5
 
 
 //--- AULA 17
-> 
+> Mostra como usar Fibo, pela classe ChartObjectFibo
 
 
 //--- AULA 18
-> 
+> Mostra como usar a classe CTrade
+> Mesmo usando CTrade, deve-se fazer a verificcacao de envio da ordem:
+if (trade.ResultRetcode == 10008 || trade.ResultRetcode == 10009)
+{
+    Print("Ordem EXECUTADA / ENVIADA com sucesso!");
+}
+else {
+    Print("Erro ao enviar ordem. Erro #",GetLastError());
+}
 
 
 //--- AULA 19
-> 
+> Desligando modo assincrono, em OnInit:
+    trade.SetAsyncMode(false);
 
 
 +----------------------+
@@ -912,27 +936,43 @@ ulong CancelaOrdem(ulong _ticket)
 +----------------------+
 
 //--- AULA 20
-> 
+> Existem 2 tipos de indicadores: os plotados na mesma janela e os plotados em janela separada
 
 
 //--- AULA 21
-> 
+> Mostra como criar indicador customizado em janela separada ou na mesma janela (introducao)
 
 
 //--- AULA 22
-> 
+> Indicacao de artigos para consulta:
+---> Estilos de indicadores;
+---> Artigo 45: https://www.mql5.com/pt/articles/45 (tem imagens dos indicadores)
 
-
+> Fala sobre o desenvolvimento do indicador
+---> CARACTERISTICAS DO INDICADOR:
+        #property indicator_buffers 1             // numero de buffers
+        #property indicator_plots   1             // numero de plots graficos
+        //---
+        #property indicator_label1  "Teste1"      // nome do indicador
+        #property indicator_type1   DRAW_LINE     // tipo de indicador
+        #property indicator_style1  STYLE_SOLID   // estilo
+        #property indicator_color1  clrRed        // cor
+        #property indicator_width1  2             // espessura ou tamanho
+        
+---> VARIAVEIS GLOBAIS:
+        double indBuffer[];
+        
+        
 //--- AULA 23
-> 
+> Aula repetida (inicio da aula 22 sobre os estilos de indicadores)
 
 
 //--- AULA 24
-> 
+> Aula repetida (inicio da aula 22 sobre o artigo 45)
 
 
 //--- AULA 25
-> 
+> Aula repetida (Aula 22: caracteristicas do indicador)
 
 
 +----------------------+
@@ -940,19 +980,19 @@ ulong CancelaOrdem(ulong _ticket)
 +----------------------+
 
 //--- AULA 26
-> 
+> Aula repetida (Aula 22: caracteristicas do indicador)
 
 
 //--- AULA 27
-> 
+> Aula repetida (Aula 22: caracteristicas do indicador)
 
 
 //--- AULA 28
-> 
+> Aula repetida (Aula 22: variaveis globais)
 
 
 //--- AULA 29
-> 
+> Aula repetida (Aula 22: variaveis globais)
 
 
 +----------------------+
@@ -960,31 +1000,31 @@ ulong CancelaOrdem(ulong _ticket)
 +----------------------+
 
 //--- AULA 30
-> 
+> Aula repetida (Aula 22: mapeamento dos buffers)
 
 
 //--- AULA 31
-> 
+ > Aula repetida (parte da aula 22)
 
 
 //--- AULA 32
-> 
+> Aula repetida (parte da aula 22)
 
 
 //--- AULA 33
-> 
+> Aula repetida (parte da aula 22)
 
 
 //--- AULA 34
-> 
+> Aula repetida (parte da aula 22)
 
 
 //--- AULA 35
-> 
-
+> Aula repetida (parte da aula 22)
+> Explica a melhor praxe de programacao para calcular o indicador, economizando processamento
 
 //--- AULA 36
-> 
+> Brinca com os estilos de plot da linha e tipo de objeto desenhado
 
 
 +----------------------+
@@ -992,23 +1032,24 @@ ulong CancelaOrdem(ulong _ticket)
 +----------------------+
 
 //--- AULA 37
-> 
+> Plot do mesmo indicador, mas em janela separada
+      #property indicator_separate_window
 
 
 //--- AULA 38
-> 
-
+> Coninua explocando indicador plotado em janela separada
+> #property indicator_minimum 0 : indicador sem espacamento do eixo x
 
 //--- AULA 39
-> 
+> Inutil
 
 
 //--- AULA 40
-> 
+> Incrementa algumas funcionalidades no indicador
 
 
 //--- AULA 41
-> 
+> Colocando cores em indicadores (adicionando 1 buffer tipo double para a cor)
 
 
 +----------------------+
@@ -1054,9 +1095,252 @@ ulong CancelaOrdem(ulong _ticket)
 //--- AULA 50
 >
 
+
 +----------------------+
 | AVANÇADO - MODULO 10 |
 +----------------------+
 
 //--- AULA 51
 > 
+
+
+//--- AULA 52
+> 
+
+
+//--- AULA 53
+> 
+
+
+//--- AULA 54
+>
+
+
+//--- AULA 55
+>
+
+
++----------------------+
+| AVANÇADO - MODULO 11 |
++----------------------+
+
+//--- AULA 56
+> 
+
+
+//--- AULA 57
+> 
+
+
+//--- AULA 58
+>
+
+
+//--- AULA 59
+>
+
+
+//--- AULA 60
+> 
+
+
+//--- AULA 61
+> 
+
+
+//--- AULA 62
+>
+
+
+//--- AULA 63
+>
+
+
+//--- AULA 64
+> 
+
+
+//--- AULA 65
+> 
+
+
+//--- AULA 66
+>
+
+
++----------------------+
+| AVANÇADO - MODULO 12 |
++----------------------+
+
+//--- AULA 67
+>
+
+
+//--- AULA 68
+> 
+
+
+//--- AULA 69
+> 
+
+
+//--- AULA 70
+>
+
+
+//--- AULA 71
+>
+
+
+//--- AULA 72
+> 
+
+
+//--- AULA 73
+>
+
+
+//--- AULA 74
+>
+
+
++----------------------+
+| AVANÇADO - MODULO 13 |
++----------------------+
+
+//--- AULA 75
+> 
+
+
+//--- AULA 76
+> 
+
+
+//--- AULA 77
+>
+
+
+//--- AULA 78
+>
+
+
+//--- AULA 79
+> 
+
+
+//--- AULA 80
+>
+
+
+//--- AULA 81
+>
+
+
++----------------------+
+| AVANÇADO - MODULO 14 |
++----------------------+
+
+//--- AULA 82
+> 
+
+
+//--- AULA 83
+> 
+
+
+//--- AULA 84
+>
+
+
+//--- AULA 85
+>
+
+
+//--- AULA 86
+> 
+
+
++----------------------+
+| AVANÇADO - MODULO 15 |
++----------------------+
+
+//--- AULA 87
+>
+
+
+//--- AULA 88
+>
+
+
+//--- AULA 89
+> 
+
+
+//--- AULA 90
+> 
+
+
+//--- AULA 91
+>
+
+
+//--- AULA 92
+>
+
+
++----------------------+
+| AVANÇADO - MODULO 16 |
++----------------------+
+
+//--- AULA 93
+>
+
+
+//--- AULA 94
+>
+
+
+//--- AULA 95
+> 
+
+
+//--- AULA 96
+> 
+
+
+//--- AULA 97
+>
+
+
+//--- AULA 98
+>
+
+
+//--- AULA 99
+>
+
+
+//--- AULA 100
+>
+
+
+//--- AULA 101
+> 
+
+
+//--- AULA 102
+> 
+
+
+//--- AULA 103
+>
+
+
+//--- AULA 104
+>
+
+
+//--- AULA 105
+>
+
+
