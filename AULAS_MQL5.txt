@@ -1057,23 +1057,23 @@ else {
 +----------------------+
 
 //--- AULA 42
-> 
+> Faz um setup de compra usando o novo indicador criado anteriormente (critério de amplitude de candle)
 
 
 //--- AULA 43
-> 
+> Fala sobre indicadores com buffer de cor
 
 
 //--- AULA 44
-> 
+> reforça que as cores usadas no indicador devem ser declaradas no cabeçalho (#property)
 
 
 //--- AULA 45
-> 
+> Mostra como plotar 2 linhas na construção de 1 só indicador
 
 
 //--- AULA 46
-> 
+> Introduz manipulação de arquivos no mql5 (INÚTIL!!!)
 
 
 +----------------------+
@@ -1081,19 +1081,28 @@ else {
 +----------------------+
 
 //--- AULA 47
-> 
+> Tipo de arquivos aceitos: CSV, TXT e BIN
 
 
 //--- AULA 48
-> 
+> Funções relacionadas a arquivos no mql5: https://www.mql5.com/pt/docs/files
 
 
 //--- AULA 49
->
+> RESTRIÇÕES: mt5 SÓ LÊ/GRAVA arquivos que estão na pasta MQL5>FILES.
+
+> Retornando diretório que armazena os dados do terminal: 
+      string terminal_data_path = TerminalInfoString(TERMINAL_DATA_PATH);
+
+> Retornando diretório comum para todos os terminais de clientes:
+      string common_data_path = TerminalInfoString(TERMINAL_COMMON_DATA_PATH);
 
 
 //--- AULA 50
->
+> Os arquivos são gravados em: terminal_data_path+"\\MQL5\\Files"
+    OBS: as barras duplas são pra inserir "\" da forma correta
+
+> Logo: string files_address = terminal_data_path+"\\MQL5\\Files\\";
 
 
 +----------------------+
@@ -1101,23 +1110,31 @@ else {
 +----------------------+
 
 //--- AULA 51
-> 
+> Forma correta de obter o diretório dos arquivos:
+    string files_address = TerminalInfoString(TERMINAL_DATA_PATH)+"\\MQL5\\Files\\";
+
+> MANIPULAÇÃO DE ARQUIVOS NO MQL5
+*** ESSA AULA É IMPORTANTE!!! ASSISTIR NOVAMENTE PARA MAIS DETALHES!!! ***
 
 
 //--- AULA 52
-> 
+> Continua falando sobre manipulação de arquivos no mql5
+*** ESSA AULA É IMPORTANTE!!! ASSISTIR NOVAMENTE PARA MAIS DETALHES!!! ***
 
 
 //--- AULA 53
-> 
+> Continua falando sobre manipulação de arquivos no mql5
+*** ESSA AULA É IMPORTANTE!!! ASSISTIR NOVAMENTE PARA MAIS DETALHES!!! ***
 
 
 //--- AULA 54
->
+> Continua falando sobre manipulação de arquivos no mql5
+*** ESSA AULA É IMPORTANTE!!! ASSISTIR NOVAMENTE PARA MAIS DETALHES!!! ***
 
 
 //--- AULA 55
->
+> Continua falando sobre manipulação de arquivos no mql5
+*** ESSA AULA É IMPORTANTE!!! ASSISTIR NOVAMENTE PARA MAIS DETALHES!!! ***
 
 
 +----------------------+
@@ -1125,47 +1142,60 @@ else {
 +----------------------+
 
 //--- AULA 56
-> 
+> Continua falando sobre manipulação de arquivos no mql5 (boa praxe: fechar arquivo após escrita)
+*** ESSA AULA É IMPORTANTE!!! ASSISTIR NOVAMENTE PARA MAIS DETALHES!!! ***
 
 
 //--- AULA 57
-> 
+> Continua falando sobre manipulação de arquivos no mql5
+*** ESSA AULA É IMPORTANTE!!! ASSISTIR NOVAMENTE PARA MAIS DETALHES!!! ***
 
 
 //--- AULA 58
->
+> Continua falando sobre manipulação de arquivos no mql5
+*** ESSA AULA É IMPORTANTE!!! ASSISTIR NOVAMENTE PARA MAIS DETALHES!!! ***
 
 
 //--- AULA 59
->
+> Continua falando sobre manipulação de arquivos no mql5
+*** ESSA AULA É IMPORTANTE!!! ASSISTIR NOVAMENTE PARA MAIS DETALHES!!! ***
 
 
 //--- AULA 60
-> 
+> Continua falando sobre manipulação de arquivos no mql5
+*** ESSA AULA É IMPORTANTE!!! ASSISTIR NOVAMENTE PARA MAIS DETALHES!!! ***
 
 
 //--- AULA 61
-> 
+> Continua falando sobre manipulação de arquivos no mql5
+*** ESSA AULA É IMPORTANTE!!! ASSISTIR NOVAMENTE PARA MAIS DETALHES!!! ***
 
 
 //--- AULA 62
->
+> AULA REPETIDA (iguala a 61)
+> Continua falando sobre manipulação de arquivos no mql5
+*** ESSA AULA É IMPORTANTE!!! ASSISTIR NOVAMENTE PARA MAIS DETALHES!!! ***
 
 
-//--- AULA 63
->
+//--- AULA 63 
+> EXPORTANDO CSV OU TXT
+> Continua falando sobre manipulação de arquivos no mql5
+*** ESSA AULA É IMPORTANTE!!! ASSISTIR NOVAMENTE PARA MAIS DETALHES!!! ***
 
 
 //--- AULA 64
-> 
+> Continua falando sobre manipulação de arquivos no mql5
+*** ESSA AULA É IMPORTANTE!!! ASSISTIR NOVAMENTE PARA MAIS DETALHES!!! ***
 
 
 //--- AULA 65
-> 
+> Lendo arquivos .dat (BIN)
+> Continua falando sobre manipulação de arquivos no mql5
+*** ESSA AULA É IMPORTANTE!!! ASSISTIR NOVAMENTE PARA MAIS DETALHES!!! ***
 
 
 //--- AULA 66
->
+> Diz que na próxima aula vai falar sobre a função de manipulação de eventos OnChartEvent, disponível na criação de EA
 
 
 +----------------------+
