@@ -1203,35 +1203,63 @@ else {
 +----------------------+
 
 //--- AULA 67
->
-
+> OnChartEvent() é executada quando acontece qualquer modificação no gráfico em que o EA está rodando.
+---> Clicar com botão esquerdo, modificar escala horizontal/vertical, clicar e arrastar... Qualquer modificação visual no gráfico irá resultar na execução da função OnChartEvent()
+> Na aula é colocada uma função Print() dentro de OnChartEvent() para exemplificar sua funcionalidade.
 
 //--- AULA 68
-> 
+> Os eventos capturados pela função OnChartEvent() são listados na documentação disponível no site do mql5
+---> Acessível pelo site ou melo "help" do mt5
 
 
 //--- AULA 69
-> 
+> A função OnChartEvent() possui 4 parâmetros:
+--> id: ID de qual evento está acontecendo para acionar a função OnChartEvent
+    --> Capturando esse evento utilizando uma função:
+          Ex: Print("OnChartEvent ID = ", EnumToString(ENUM_CHAT_EVENT)id);
+          // A linha acima vai printar o evento que está causando a execução de OnChartEvent
+          // Ex: se clicar no gráfico, vai printar: "OnChartEvent ID = CHARTEVENT_CLICK"
+    --> Dá pra associar o evento CHARTEVENT_KEYDOWN, por exemplo, com uma compra/venda forçada 
+--> lparam: não foi explicado nessa aula
+--> dparam: não foi explicado nessa aula
+--> sparam: não foi explicado nessa aula
 
 
 //--- AULA 70
->
+> Criando painel (comando inserido na função OnInit):
+      SetPanel("Nome do Painel", int sub_window, int xx, int yy, int width, int height, 
+                color bg_color, color border_clr, color border_width);
+      // sub_window: 0 para utilizar janela de gráfico atual
+      // xx: coordenada X em pixels (posição 0,0 é no canto superior esquerdo)
+      // yy: coordenada Y em pixels (posição 0,0 é no canto superior esquerdo)
+      // widht: largura do painel
+      // height: altura do painel
+      // bg_color: cor de fundo
+      // border_clr: cor da borda
+      // border_width: largura da borda
+
+> Clicar dentro do painel gera um CHARTEVENT_OBJECT_CLICK + CHARTEVENT_CLICK
+> Usar opção DRAGGABLE caso queira que o objeto seja "arrastável"
 
 
 //--- AULA 71
->
+> Pede pra baixar o arquivo mypanel.mq5
+> Fala superficialmente sobre BIBLIOTECAS DE CONTROLE DE OBJETOS 
 
 
 //--- AULA 72
-> 
+> FALA SOBRE PAINEL E APPDIALOG. AULA MUITO IMPORTANTE!!!
+*** ASSISTIR NOVAMENTE ESTA AULA PARA MAIS DETALHES!!! ***
 
 
 //--- AULA 73
->
+> FALA SOBRE PAINEL E APPDIALOG. AULA MUITO IMPORTANTE!!!
+*** ASSISTIR NOVAMENTE ESTA AULA PARA MAIS DETALHES!!! ***
 
 
 //--- AULA 74
->
+> COMO CRIAR UM BOTÃO. AULA MUITO IMPORTANTE!!!
+*** ASSISTIR NOVAMENTE ESTA AULA PARA MAIS DETALHES!!! ***
 
 
 +----------------------+
@@ -1239,31 +1267,47 @@ else {
 +----------------------+
 
 //--- AULA 75
-> 
+> Linha de tendencia usando classe CChartObjectTrend
+--> A linha de tendência utiliza apenas 4 valores:    
+    --> data do ponto inicial;
+    --> preço do ponto inicial;
+    --> data do ponto final;
+    --> preço do ponto final.
+*** ASSISTIR NOVAMENTE ESTA AULA PARA MAIS DETALHES!!! ***
 
 
 //--- AULA 76
-> 
+> Mostra como usar a classe CChartObjectFibo, e explora seus recursos de forma muito objetiva (superficialmente)
 
 
 //--- AULA 77
->
+> Usa classe CChartObjectSubChart: cria uma subjanela com um gráfico que pode possuir (ou não) o mesmo ativo, tempo gráfico, objetos, etc.
+*** ESSE ARTIFICIO É UTIL PARA O ROBÔ DA PALMINVEST (M5/M15) ***
 
 
 //--- AULA 78
->
+> Mostra um painel mais sofisticado da DeltaTrader (MultiStrategy v1.01)
+> COMO IMPLEMENTAR AÇÕES EM UM BOTÃO:
+    OnButtonClick();        //--- Deve estar dentro de OnChartEvent e criada normalmente com tipo void
+
+*** ASSISTIR NOVAMENTE ESTA AULA PARA MAIS DETALHES!!! ***
 
 
 //--- AULA 79
-> 
+> Usa classe CEdit: serve para abrir uma caixa de texto editável (pode ser usada para o usuário alterar numero de contratos, SL, TP, etc., de forma interativa em uma boleta, por exemplo) 
+*** ASSISTIR NOVAMENTE ESTA AULA PARA MAIS DETALHES!!! ***
 
 
 //--- AULA 80
->
+> Continua explorando a classe CEdit
+> Usa função Alert() para gerar um alerta caso o parâmetro inserido na caixa editável seja incompatível com o valor esperado;
+*** ASSISTIR NOVAMENTE ESTA AULA PARA MAIS DETALHES!!! ***
 
 
 //--- AULA 81
->
+> Fala sobre OTIMIZAÇÃO
+--> Vc só consegue otimizar parâmetros que são INPUTS!!!
+> Duas opções no Testador de Estratégias: algoritmo completo (lento) ou algoritmo genérico (rápido)
 
 
 +----------------------+
