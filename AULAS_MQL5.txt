@@ -1307,7 +1307,7 @@ else {
 //--- AULA 81
 > Fala sobre OTIMIZAÇÃO
 --> Vc só consegue otimizar parâmetros que são INPUTS!!!
-> Duas opções no Testador de Estratégias: algoritmo completo (lento) ou algoritmo genérico (rápido)
+> Duas opções no Testador de Estratégias: algoritmo completo (lento) ou algoritmo genético (rápido)
 
 
 +----------------------+
@@ -1315,23 +1315,29 @@ else {
 +----------------------+
 
 //--- AULA 82
-> 
+> OTIMIZACAO: rodar varios backtests de uma vez
+> Soh serao otimizados os inputs que forem ticados na aba "Parametros de Entrada", na janela de backtest
+
+> Durante BACKTEST: apenas a coluna "valor" importa
+> Durante OTIMIZACAO: apenas as colunas INICIAR, PASSO, PARAR (a coluna PASSOS mostra quantas iteracoes a otimizacao tera)
 
 
 //--- AULA 83
-> 
+> Ao executar a otimizacao, a aba AGENTES mostra como as otimizacoes foram alocadas em cada nucleo do processador e o andamento da otimizacao
 
 
 //--- AULA 84
->
+> Os resultados da otimizacao estao na aba "Resultados da Otimizacao"
+> Para abrir um dos testes (geralmente o melhor), basta clicar com o botao direito sobre o teste desejado e clicar em "Execute Unico Teste"
+  *** ATENCAO: CLICAR NESSA OPCAO FAZ PERDER OS TESTES ANTERIORES. ANTES DE CLICAR, SALVE OS TESTES (Exportar a XML) ***
 
 
 //--- AULA 85
->
+> Mostra que da pra usar processadores externos (em rede ou nuvem)
 
 
 //--- AULA 86
-> 
+> Depois que rodar o resultado mais otimo, clicar na aba Resultados (janela Testador de Estrategias) para ver mais detalhes.
 
 
 +----------------------+
@@ -1339,27 +1345,29 @@ else {
 +----------------------+
 
 //--- AULA 87
->
+> Serie continua ($D) serve pra operar backtest (ao vivo nao)
 
 
 //--- AULA 88
->
+> ALGORITMO GENETICO: aprende conforme os testes forem ocorrendo e deixa de executar os testes com parametros que ele julga ser menos lucrativos. Ex: na execucao de 10mil testes, o algoritmo genetico ira rodar cerca de 2.5k a 3k testes, uma vez que ira excluir algumas parametrizacoes nao lucrativas.
 
 
 //--- AULA 89
-> 
+> AULA ERRADA!!! Esse topico foi abordado em aulas muito anteriores 
+---> foi usado MqlTick tick, com exemplo de tick.time
 
 
 //--- AULA 90
-> 
+> AULA INUTIL (diz que a qualidade dos ticks da xp eh boa)
 
 
 //--- AULA 91
->
+> A informacao "TICKS" nos resultados da otimizacao NAO SAO TICKS REAIS. Trata-se do numero de negociacoes existentes no periodo em que foi feito o backtest
 
 
 //--- AULA 92
->
+> Fala sobre o artigo 75 (https://www.mql5.com/pt/articles/75: explica o algoritmo gerador de ticks do mt5.
+> O algoritmo baixa os dados OHLC de cada candle, o volume de contratos naquele candle e a quantidade de ticks existentes tambem no mesmo candle. Entretanto, os ticks sao gerados aleatoriamente, de forma a iniciar e terminar com as caracteristicas iniciais (OHLC, volume negociado e numero de negociacoes)
 
 
 +----------------------+
@@ -1367,54 +1375,108 @@ else {
 +----------------------+
 
 //--- AULA 93
->
+> Explica mais detalhes dos Resultados do backtest
+--> Fator de Ganho (FG): eh o lucro bruto dividido pela perda bruta (Ex: Fator_Ganho = 1.45 significa que pra cada R$1 de prejuizo eu ganhei R$1.45)
+      --> Busca FG > 1 (menor que 1 eh prejuizo)
 
 
 //--- AULA 94
->
+> Fator de Recuperacao (FR): lucro bruto dividido pelo drawdown maximo do saldo
+      --> Buscar resultados com FR > 1 (menor que 1 NAO eh prejuizo, mas eh muito risco pra pouco retorno)
 
 
 //--- AULA 95
-> 
+> Total de Negociacoes: compra + venda (ou vice-versa) = 1 negociacao
+> Total Deals: compra + venda parcial + venda total = 3 deals
+> O lucro liquido do mt5 nao desconta a corretagem
 
 
 //--- AULA 96
-> 
+> Retorno Esperado (RE): Lucro liquido (Gain - Loss) dividido pelo total de negociacoes.
+      ---> Ex: um RE de 9.84 diz que vc ganha uma media de R$9.84/operacao.
 
 
 //--- AULA 97
->
+> Sharpe Ratio (indice tecnico de financas): eh o retorno superior a um benchmark qualquer de renda fixa (poupanca, cdb, lci, etc), dividido pela volatilidade das suas operacoes (desvio padrao)
+      --> Compara o retorno que se tem em relacao ao risco que se corre
+      --> Acredita-se que o mt5 desconsidera o benchmark de renda fixa
+      --> Quanto maior o sharpe ratio, melhor!!!
 
 
 //--- AULA 98
->
+> LR (linear regression) Correlation: correlaciona uma reta (resultante de uma regressao linear) com o seu historico de saldo no backtest
+      ---> quanto mais proximo de 1 melhor (HA CONTROVERSIAS: uma exponencial positiva, sem drawdown, seria algo excelente, mas nao mostraria LR Correlation = 1
 
 
 //--- AULA 99
->
+> Negociacoes de Compra/Venda: intuitivo
+> Negociacoes com Lucro/Perda: intuitivo
+> Ganho (maior/medio) em uma negociacao: intuitivo
+> Perda (maior/media) em uma negociacao: intuitivo
+> Ganhos/Perdas (maximo/media) consecutivos: intuitivo
 
 
 //--- AULA 100
->
+> O mt5 tambem gera graficos com distribuicoes interessantes que vale a pena observar para ajudar na parametrizacao do robo
 
 
 //--- AULA 101
-> 
+> Graficos adicionais:
+  > MFE (Max Favorable Excursion): MEP (maior movimentacao POSITIVA dentro de uma operacao)
+  
+  > MAE (Max Adverse Excursion): MEN (maior movimentacao NEGATIVA dentro de uma operacao
 
 
-//--- AULA 102
-> 
+//--- AULA 102 (AULA TOP!!! ASSISTIR NOVAMENTE!!!)
+> Metricas primarias: Drawdown < 12%; FG > 1.5; FR > 3.0
+> Metricas secundarias: sharpe ratio (quanto maior melhor), LR Correlation (mais proximo de 1), Negociacoes com Lucro
+--> Lucro eh uma coisa relativa
 
+> CAPTURANDO DRAWDOWN:
+double OnTester()
+{
+  double ret=0.0;
+  //---
+  double dd = TesterStatistics(STAT_EQUITY_DD);
+  double profitFactor = TesterStatistics(STAT_PROFIT_FACTOR);
+  double recFactor = TesterStatistics(STAT_RECOVERY_FACTOR);
+  //---
+  if(dd > 12)
+  {
+    return(0.0);
+  }
+  else {
+    dd = 1.0;
+  }
+  if(profitFactor < 1.5)
+  {
+    return(0.0);
+  }
+  else {
+    profitFactor = 1.0;
+  }
+  if(recFactor < 3.0)
+  {
+    return(0.0);
+  }
+  else {
+    recFactor = 1.0;
+  }
+  return(dd*profitFactor*recFactor);
+}
 
-//--- AULA 103
->
+> Na hora de otimizar o backtest, mudar "Balance max" para "Custom max" (isso fara o EA considerar o filtro OnTester no momento do backtest)
+> OBS: O RESULTADO DA APROVACAO NO TESTE DEFINIDO EM OnTester EH EXIBIDO NA COLUNA "RESULTADO", DA ABA "RESULTADOS DA OTIMIZACAO"
+
+//--- AULA 103 (AULA TOP!!! ASSISTIR NOVAMENTE!!!)
+> Fala sobre colocar pesos no filtro inserido em OnTester
 
 
 //--- AULA 104
->
+> Mostra que se o EA utiliza dados de mais de 1 ativo e mais de 1 tempo grafico, no backtest aparecerao novas abas com todos os ativos e seus respectivos tempos graficos
 
 
 //--- AULA 105
->
+> Mostra como colocar pra o usuario inserir o timeframe desejado
 
 
